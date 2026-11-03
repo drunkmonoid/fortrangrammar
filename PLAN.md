@@ -10,7 +10,7 @@ Status: `[x]` done · `[ ]` pending.
 |---|---|---|---|
 | 1 | [x] | `01-getting-started/` | Toolchain, compiling, program anatomy, `implicit none`, program units overview |
 | 2 | [x] | `02-lexical-elements/` | Source form, character set, names, comments, continuation, labels, `include` |
-| 3 | [ ] | `03-intrinsic-types/` | integer, real, complex, logical, character; literals; kinds |
+| 3 | [x] | `03-intrinsic-types/` | integer, real, complex, logical, character; literals; kinds |
 | 4 | [ ] | `04-declarations/` | Declaration syntax, attributes, `parameter`, initialization, enumerations |
 | 5 | [ ] | `05-expressions/` | Operators, precedence, mixed mode, assignment, conditional expressions |
 | 6 | [ ] | `06-control-flow/` | `if`, `select case`, `do` forms, `exit`/`cycle`, `block`, `associate`, `stop` |
