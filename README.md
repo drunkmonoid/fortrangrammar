@@ -54,5 +54,5 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 26 | [Intrinsic procedure catalog](26-intrinsic-catalog/) | ✅ |
 | 27 | [C interoperability](27-c-interop/) | ✅ |
 | 28 | [Native parallelism: `do concurrent`, coarrays](28-native-parallelism/) | ✅ |
-| 29 | Parallel ecosystem: OpenMP, OpenACC, MPI | planned |
+| 29 | [Parallel ecosystem: OpenMP, OpenACC, MPI](29-parallel-ecosystem/) | ✅ |
 | 30 | Ecosystem: fpm, CMake, testing, tooling | planned |
