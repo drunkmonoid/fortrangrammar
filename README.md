@@ -37,7 +37,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 09 | [Array intrinsics](09-array-intrinsics/) | ✅ |
 | 10 | [Characters and strings](10-characters/) | ✅ |
 | 11 | [Procedures I](11-procedures-basics/) | ✅ |
-| 12 | Procedures II: interfaces and generics | planned |
+| 12 | [Procedures II: interfaces and generics](12-procedures-interfaces/) | ✅ |
 | 13 | Procedure attributes and scoping | planned |
 | 14 | Modules | planned |
 | 15 | Submodules | planned |
