@@ -34,7 +34,7 @@ Status: `[x]` done · `[ ]` pending.
 | 24 | [x] | `24-errors-environment/` | `stat`/`errmsg`/`iostat`, termination, command line, env vars, time, random |
 | 25 | [x] | `25-numeric-ieee/` | Numeric model inquiry, `ieee_arithmetic`, `ieee_exceptions`, rounding |
 | 26 | [x] | `26-intrinsic-catalog/` | A–Z reference of intrinsic procedures not covered elsewhere |
-| 27 | [ ] | `27-c-interop/` | `iso_c_binding`, `bind(c)`, `ISO_Fortran_binding.h`, mixed builds |
+| 27 | [x] | `27-c-interop/` | `iso_c_binding`, `bind(c)`, `ISO_Fortran_binding.h`, mixed builds |
 | 28 | [ ] | `28-native-parallelism/` | `do concurrent`, coarrays, teams, events, collectives, atomics |
 | 29 | [ ] | `29-parallel-ecosystem/` | OpenMP, OpenACC, MPI (`mpi_f08`) |
 | 30 | [ ] | `30-ecosystem/` | fpm, CMake, stdlib, testing, docs, tooling, debugging, support matrix, index |
