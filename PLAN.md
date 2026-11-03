@@ -13,7 +13,7 @@ Status: `[x]` done · `[ ]` pending.
 | 3 | [x] | `03-intrinsic-types/` | integer, real, complex, logical, character; literals; kinds |
 | 4 | [x] | `04-declarations/` | Declaration syntax, attributes, `parameter`, initialization, enumerations |
 | 5 | [x] | `05-expressions/` | Operators, precedence, mixed mode, assignment, conditional expressions |
-| 6 | [ ] | `06-control-flow/` | `if`, `select case`, `do` forms, `exit`/`cycle`, `block`, `associate`, `stop` |
+| 6 | [x] | `06-control-flow/` | `if`, `select case`, `do` forms, `exit`/`cycle`, `block`, `associate`, `stop` |
 | 7 | [ ] | `07-arrays-fundamentals/` | Bounds, rank, constructors, sections, whole-array ops, `where` |
 | 8 | [ ] | `08-arrays-dynamic/` | Allocatables, argument shapes, assumed rank, `select rank`, `contiguous` |
 | 9 | [ ] | `09-array-intrinsics/` | Construction, reduction, location, manipulation, `matmul`, `reduce` |

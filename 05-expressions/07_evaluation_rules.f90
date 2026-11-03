@@ -39,3 +39,9 @@ program evaluation_rules
   print '(a, i0)', 'i * 2 / 2           = ', i * 2 / 2
 
 end program evaluation_rules
+
+! Output:
+! (small + big) - big = .0
+! small + (big - big) = 1.0
+! i / 2 * 2           = 6
+! i * 2 / 2           = 7

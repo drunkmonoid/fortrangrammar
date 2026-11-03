@@ -57,3 +57,15 @@ program operator_precedence
   print '(a, i0)', '(a + b) * 2                = ', (a + b) * 2
 
 end program operator_precedence
+
+! Output:
+! a + 1 > b .and. b < 4      : F
+! .not. p .and. q            : F
+! .not. (p .and. q)          : T
+! p .or. q .and. .false.     : T
+! (p .or. q) .and. .false.   : F
+! p .and. q .eqv. q          : T
+! 'ab' // 'c' == 'abc'       : T
+! -a**2                      = -4
+! a**b**2 = a**(b**2)        = 512
+! (a + b) * 2                = 10

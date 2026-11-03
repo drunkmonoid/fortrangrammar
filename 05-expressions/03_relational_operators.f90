@@ -48,3 +48,14 @@ program relational_operators
   print '(a, l1)', '1 < n .and. n < 10        : ', 1 < n .and. n < 10
 
 end program relational_operators
+
+! Output:
+! 5 vs 3: == /= < <= > >= : F T F F T T
+! old spellings .eq. .gt.  : T T
+! 0.1 + 0.2 == 0.3          : F
+! abs(a-b) <= 4*eps*|b|     : T
+! 'abc' == 'abc   '         : T
+! 'abc' <  'abd'            : T
+! 'Z' < 'a' (ASCII)         : T
+! (1,2) == (1,2)            : T
+! 1 < n .and. n < 10        : T

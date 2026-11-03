@@ -63,3 +63,13 @@ program intrinsic_assignment
   print '(a, *(1x, i0))', 'swapped first two:', a
 
 end program intrinsic_assignment
+
+! Output:
+! n = 7, x = 3.0
+! [ab  ]
+! [abcd]
+! [abcdefgh] len=8
+! shifted: 1 1 2 3 4
+! size after [1,2]      : 2
+! size after appending  : 5
+! swapped first two: 2 1 3 4 5

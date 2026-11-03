@@ -58,3 +58,18 @@ program mixed_mode
   print '(a, 2(1x, f0.2))', '(1,1) * 2.0_dp =', (1.0_dp, 1.0_dp) * 2.0_dp
 
 end program mixed_mode
+
+! Output:
+! 1/2 * x      = .0000
+! x * 1/2      = 5.0000
+! 0.5_dp * x   = 5.0000
+! x / n        = 3.3333
+! n / 2        = 1.0000
+! real(n)/2    = 1.5000
+! kind(s * x)  = 8
+! kind(s * n)  = 4
+! kind(n * big)= 8
+! big * big    = 10000000000
+! avg(1,2) wrong = 1.0000
+! avg(1,2) right = 1.5000
+! (1,1) * 2.0_dp = 2.00 2.00

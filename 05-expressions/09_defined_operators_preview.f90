@@ -88,3 +88,10 @@ program defined_operators_preview
   print '(a, f0.4)', '.norm. s * 2 = ', .norm. s * 2.0
 
 end program defined_operators_preview
+
+! Output:
+! i x j      = .0 .0 1.0
+! i + j + k  = 1.0 1.0 1.0
+! i . j      = .0
+! |i + j + k| = 1.7321
+! .norm. s * 2 = 3.4641

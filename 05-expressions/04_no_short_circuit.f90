@@ -60,3 +60,11 @@ contains
   end subroutine report
 
 end program no_short_circuit
+
+! Output:
+! values(1) is positive
+! index 2 is out of range or not positive
+! values(3) is positive
+! index 4 is out of range or not positive
+! short report
+! verbose report, level 3

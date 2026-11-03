@@ -47,8 +47,8 @@ program arithmetic_operators
   x = 3.0
   print '(a, f0.1)', 'x * (-2)     = ', x * (-2)
 
-  ! Real cube root of a negative number: do it by hand (or use F2023-style
-  ! sign tricks); (-8.0)**(1.0/3.0) would be invalid.
+  ! Real cube root of a negative number: take the root of |x| and restore
+  ! the sign; (-8.0)**(1.0/3.0) would be invalid.
   x = -8.0
   print '(a, f0.4)', 'cbrt(-8)     = ', sign(abs(x)**(1.0 / 3.0), x)
 
@@ -57,3 +57,22 @@ program arithmetic_operators
   print '(a, f0.3, 1x, f0.3)', '1.5**i, 1.5**3.0 = ', 1.5**i, 1.5**3.0
 
 end program arithmetic_operators
+
+! Output:
+! 2**3**2      = 512
+! (2**3)**2    = 64
+! -2**2        = -4
+! (-2)**2      = 4
+! 7 / 2        = 3
+! -7 / 2       = -3
+! 2**(-1)      = 0
+! 2.0**(-1)    = .5000
+! 10 - 4 - 3   = 3
+! 100 / 10 / 5 = 2
+! 1 + 2 * 3    = 7
+! mod(-7, 3), modulo(-7, 3)  = -1 2
+! mod(7, -3), modulo(7, -3)  = 1 -2
+! modulo(5.5, 2.0)           = 1.50
+! x * (-2)     = -6.0
+! cbrt(-8)     = -2.0000
+! 1.5**i, 1.5**3.0 = 3.375 3.375
