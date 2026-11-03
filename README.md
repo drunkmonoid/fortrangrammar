@@ -47,7 +47,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 19 | [OOP II: abstract types, generics, finalization](19-oop-advanced/) | ✅ |
 | 20 | [Unlimited polymorphism and defined I/O](20-unlimited-polymorphism/) | ✅ |
 | 21 | [Pointers](21-pointers/) | ✅ |
-| 22 | Formatted I/O | planned |
+| 22 | [Formatted I/O](22-formatted-io/) | ✅ |
 | 23 | File I/O | planned |
 | 24 | Errors and the environment | planned |
 | 25 | Numeric model and IEEE arithmetic | planned |

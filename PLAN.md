@@ -29,7 +29,7 @@ Status: `[x]` done · `[ ]` pending.
 | 19 | [x] | `19-oop-advanced/` | `abstract`, `deferred`, `non_overridable`, generic bindings, operators, `final` |
 | 20 | [x] | `20-unlimited-polymorphism/` | `class(*)`, type inquiry, generic containers, defined derived-type I/O |
 | 21 | [x] | `21-pointers/` | `pointer`/`target`, `associated`, remapping, linked structures |
-| 22 | [ ] | `22-formatted-io/` | Every edit descriptor, format specifications, unlimited format items |
+| 22 | [x] | `22-formatted-io/` | Every edit descriptor, format specifications, unlimited format items |
 | 23 | [ ] | `23-file-io/` | `open`/`close`/`inquire`, access modes, unformatted, stream, `namelist`, async |
 | 24 | [ ] | `24-errors-environment/` | `stat`/`errmsg`/`iostat`, termination, command line, env vars, time, random |
 | 25 | [ ] | `25-numeric-ieee/` | Numeric model inquiry, `ieee_arithmetic`, `ieee_exceptions`, rounding |
