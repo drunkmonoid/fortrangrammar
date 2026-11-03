@@ -32,7 +32,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 04 | [Declarations and attributes](04-declarations/) | ✅ |
 | 05 | [Expressions and assignment](05-expressions/) | ✅ |
 | 06 | [Control flow](06-control-flow/) | ✅ |
-| 07 | Arrays I: fundamentals | planned |
+| 07 | [Arrays I: fundamentals](07-arrays-fundamentals/) | ✅ |
 | 08 | Arrays II: dynamic arrays and arguments | planned |
 | 09 | Array intrinsics | planned |
 | 10 | Characters and strings | planned |
