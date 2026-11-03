@@ -1,0 +1,7 @@
+build/
+*.mod
+*.smod
+*.o
+*.a
+*.so
+a.out
