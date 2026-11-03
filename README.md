@@ -53,6 +53,6 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 25 | [Numeric model and IEEE arithmetic](25-numeric-ieee/) | ✅ |
 | 26 | [Intrinsic procedure catalog](26-intrinsic-catalog/) | ✅ |
 | 27 | [C interoperability](27-c-interop/) | ✅ |
-| 28 | Native parallelism: `do concurrent`, coarrays | planned |
+| 28 | [Native parallelism: `do concurrent`, coarrays](28-native-parallelism/) | ✅ |
 | 29 | Parallel ecosystem: OpenMP, OpenACC, MPI | planned |
 | 30 | Ecosystem: fpm, CMake, testing, tooling | planned |
