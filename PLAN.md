@@ -27,7 +27,7 @@ Status: `[x]` done · `[ ]` pending.
 | 17 | [x] | `17-parameterized-types/` | `kind` and `len` type parameters, assumed/deferred parameters |
 | 18 | [x] | `18-oop-polymorphism/` | `extends`, `class`, `select type`, type-bound procedures, `pass`/`nopass` |
 | 19 | [x] | `19-oop-advanced/` | `abstract`, `deferred`, `non_overridable`, generic bindings, operators, `final` |
-| 20 | [ ] | `20-unlimited-polymorphism/` | `class(*)`, type inquiry, generic containers, defined derived-type I/O |
+| 20 | [x] | `20-unlimited-polymorphism/` | `class(*)`, type inquiry, generic containers, defined derived-type I/O |
 | 21 | [ ] | `21-pointers/` | `pointer`/`target`, `associated`, remapping, linked structures |
 | 22 | [ ] | `22-formatted-io/` | Every edit descriptor, format specifications, unlimited format items |
 | 23 | [ ] | `23-file-io/` | `open`/`close`/`inquire`, access modes, unformatted, stream, `namelist`, async |

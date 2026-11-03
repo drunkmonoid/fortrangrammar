@@ -45,7 +45,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 17 | [Parameterized derived types](17-parameterized-types/) | ✅ |
 | 18 | [OOP I: extension and polymorphism](18-oop-polymorphism/) | ✅ |
 | 19 | [OOP II: abstract types, generics, finalization](19-oop-advanced/) | ✅ |
-| 20 | Unlimited polymorphism and defined I/O | planned |
+| 20 | [Unlimited polymorphism and defined I/O](20-unlimited-polymorphism/) | ✅ |
 | 21 | Pointers | planned |
 | 22 | Formatted I/O | planned |
 | 23 | File I/O | planned |
