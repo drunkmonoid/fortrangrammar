@@ -39,7 +39,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 11 | [Procedures I](11-procedures-basics/) | ✅ |
 | 12 | [Procedures II: interfaces and generics](12-procedures-interfaces/) | ✅ |
 | 13 | [Procedure attributes and scoping](13-procedure-attributes/) | ✅ |
-| 14 | Modules | planned |
+| 14 | [Modules](14-modules/) | ✅ |
 | 15 | Submodules | planned |
 | 16 | Derived types | planned |
 | 17 | Parameterized derived types | planned |
