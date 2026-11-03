@@ -30,7 +30,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 02 | [Lexical elements](02-lexical-elements/) | ✅ |
 | 03 | [Intrinsic types and kinds](03-intrinsic-types/) | ✅ |
 | 04 | [Declarations and attributes](04-declarations/) | ✅ |
-| 05 | Expressions and assignment | planned |
+| 05 | [Expressions and assignment](05-expressions/) | ✅ |
 | 06 | Control flow | planned |
 | 07 | Arrays I: fundamentals | planned |
 | 08 | Arrays II: dynamic arrays and arguments | planned |
