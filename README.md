@@ -38,7 +38,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 10 | [Characters and strings](10-characters/) | ✅ |
 | 11 | [Procedures I](11-procedures-basics/) | ✅ |
 | 12 | [Procedures II: interfaces and generics](12-procedures-interfaces/) | ✅ |
-| 13 | Procedure attributes and scoping | planned |
+| 13 | [Procedure attributes and scoping](13-procedure-attributes/) | ✅ |
 | 14 | Modules | planned |
 | 15 | Submodules | planned |
 | 16 | Derived types | planned |

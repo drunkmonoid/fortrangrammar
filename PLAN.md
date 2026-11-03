@@ -20,7 +20,7 @@ Status: `[x]` done · `[ ]` pending.
 | 10 | [x] | `10-characters/` | Character kinds, deferred length, substrings, string intrinsics, `split`/`tokenize` |
 | 11 | [x] | `11-procedures-basics/` | Subroutines, functions, `intent`, `optional`, keywords, `value`, internal procedures |
 | 12 | [x] | `12-procedures-interfaces/` | Explicit/abstract interfaces, generics, dummy procedures, procedure pointers |
-| 13 | [ ] | `13-procedure-attributes/` | `pure`, `elemental`, `impure`, `recursive`, `simple`, host association, `import` |
+| 13 | [x] | `13-procedure-attributes/` | `pure`, `elemental`, `impure`, `recursive`, `simple`, host association, `import` |
 | 14 | [ ] | `14-modules/` | `use`/`only`/rename, accessibility, `protected`, intrinsic modules, `.mod` files |
 | 15 | [ ] | `15-submodules/` | Separate module procedures, submodule trees, compilation cascades |
 | 16 | [ ] | `16-derived-types/` | Components, default init, constructors, nesting, accessibility, `sequence` |
