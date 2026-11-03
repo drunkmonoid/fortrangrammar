@@ -34,7 +34,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 06 | [Control flow](06-control-flow/) | ✅ |
 | 07 | [Arrays I: fundamentals](07-arrays-fundamentals/) | ✅ |
 | 08 | [Arrays II: dynamic arrays and arguments](08-arrays-dynamic/) | ✅ |
-| 09 | Array intrinsics | planned |
+| 09 | [Array intrinsics](09-array-intrinsics/) | ✅ |
 | 10 | Characters and strings | planned |
 | 11 | Procedures I | planned |
 | 12 | Procedures II: interfaces and generics | planned |
