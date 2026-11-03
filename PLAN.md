@@ -23,7 +23,7 @@ Status: `[x]` done · `[ ]` pending.
 | 13 | [x] | `13-procedure-attributes/` | `pure`, `elemental`, `impure`, `recursive`, `simple`, host association, `import` |
 | 14 | [x] | `14-modules/` | `use`/`only`/rename, accessibility, `protected`, intrinsic modules, `.mod` files |
 | 15 | [x] | `15-submodules/` | Separate module procedures, submodule trees, compilation cascades |
-| 16 | [ ] | `16-derived-types/` | Components, default init, constructors, nesting, accessibility, `sequence` |
+| 16 | [x] | `16-derived-types/` | Components, default init, constructors, nesting, accessibility, `sequence` |
 | 17 | [ ] | `17-parameterized-types/` | `kind` and `len` type parameters, assumed/deferred parameters |
 | 18 | [ ] | `18-oop-polymorphism/` | `extends`, `class`, `select type`, type-bound procedures, `pass`/`nopass` |
 | 19 | [ ] | `19-oop-advanced/` | `abstract`, `deferred`, `non_overridable`, generic bindings, operators, `final` |

@@ -41,7 +41,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 13 | [Procedure attributes and scoping](13-procedure-attributes/) | ✅ |
 | 14 | [Modules](14-modules/) | ✅ |
 | 15 | [Submodules](15-submodules/) | ✅ |
-| 16 | Derived types | planned |
+| 16 | [Derived types](16-derived-types/) | ✅ |
 | 17 | Parameterized derived types | planned |
 | 18 | OOP I: extension and polymorphism | planned |
 | 19 | OOP II: abstract types, generics, finalization | planned |
