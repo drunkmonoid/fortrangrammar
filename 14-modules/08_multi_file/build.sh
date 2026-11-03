@@ -17,7 +17,8 @@ for src in constants.f90 physics.f90 main.f90; do
   # shellcheck disable=SC2086
   "$FC" $FFLAGS -J "$OUT" -c "$src" -o "$OUT/${src%.f90}.o"
 done
-"$FC" "$OUT"/constants.o "$OUT"/physics.o "$OUT"/main.o -o "$OUT/app"
+# shellcheck disable=SC2086
+"$FC" $FFLAGS "$OUT"/constants.o "$OUT"/physics.o "$OUT"/main.o -o "$OUT/app"
 
 ls "$OUT"/*.mod | xargs -n1 basename
 "$OUT/app"

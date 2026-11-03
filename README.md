@@ -27,6 +27,8 @@ scripts/run.sh 01-getting-started/01_hello_world.f90   # build + run one example
 scripts/check_all.sh                                   # build + run everything
 scripts/check_all.sh 01-getting-started                # one chapter
 scripts/run.sh 14-modules/08_multi_file/               # a multi-file example
+scripts/check_outputs.sh                               # verify every "! Output:" block
+FFLAGS="-std=f2023 -O2" scripts/check_outputs.sh       # ...at another optimisation level
 scripts/make_index.sh > INDEX.md                       # regenerate the index
 FC=ifx FFLAGS="-stand f23 -warn all" scripts/check_all.sh   # another compiler
 ```

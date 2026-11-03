@@ -32,8 +32,16 @@ program stat_errmsg
   ! An impossible allocation (~4.6e18 bytes) - reported, not fatal.
   ! (Merely LARGE requests may "succeed" on systems that overcommit memory
   ! and fail later when the pages are touched.)
+  ! The array must be USED on success: otherwise an optimiser (-O2) may
+  ! delete the unused allocation, and then it can never fail.
   allocate (a(huge(1_int64) / 8), stat=stat, errmsg=msg)
-  if (stat /= 0) print '(a, i0, 2a)', 'allocate failed: stat=', stat, ', ', trim(msg)
+  if (stat /= 0) then
+    print '(a, i0, 2a)', 'allocate failed: stat=', stat, ', ', trim(msg)
+  else
+    a(size(a)) = 1.0
+    print '(a, f0.1)', 'allocation succeeded?! last element = ', a(size(a))
+    deallocate (a)
+  end if
 
   ! A read past the end of a file.
   open (newunit=u, status='scratch')

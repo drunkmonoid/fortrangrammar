@@ -8,5 +8,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 # shellcheck disable=SC2086
 "$FC" $FFLAGS -J "$OUT" -c flib.f90 -o "$OUT/flib.o"
 "$CC" -std=c11 -Wall -Wextra -c main.c -o "$OUT/main.o"
-"$FC" "$OUT/main.o" "$OUT/flib.o" -o "$OUT/app"
+# shellcheck disable=SC2086
+"$FC" $FFLAGS "$OUT/main.o" "$OUT/flib.o" -o "$OUT/app"
 "$OUT/app"

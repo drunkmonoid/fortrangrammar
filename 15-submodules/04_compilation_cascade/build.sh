@@ -19,14 +19,16 @@ compile() {
 compile -c geometry.f90 -o "$OUT/geometry.o"
 compile -c geometry_impl.F90 -o "$OUT/geometry_impl.o"
 compile -c main.f90 -o "$OUT/main.o"
-"$FC" "$OUT"/geometry.o "$OUT"/geometry_impl.o "$OUT"/main.o -o "$OUT/app"
+# shellcheck disable=SC2086
+"$FC" $FFLAGS "$OUT"/geometry.o "$OUT"/geometry_impl.o "$OUT"/main.o -o "$OUT/app"
 before="$(md5sum < "$OUT/geometry.mod")"
 echo "Euclidean implementation:"
 "$OUT/app"
 
 # Change ONLY the implementation, recompile ONLY the submodule, relink.
 compile -DMANHATTAN -c geometry_impl.F90 -o "$OUT/geometry_impl.o"
-"$FC" "$OUT"/geometry.o "$OUT"/geometry_impl.o "$OUT"/main.o -o "$OUT/app"
+# shellcheck disable=SC2086
+"$FC" $FFLAGS "$OUT"/geometry.o "$OUT"/geometry_impl.o "$OUT"/main.o -o "$OUT/app"
 after="$(md5sum < "$OUT/geometry.mod")"
 echo "Manhattan implementation (main.o NOT recompiled):"
 "$OUT/app"

@@ -15,6 +15,25 @@
 Use the checks during development and testing; release builds drop them
 for speed.
 
+### Running this repository under the sanitizers
+
+```sh
+ASAN_OPTIONS=detect_leaks=0:allocator_may_return_null=1 \
+FFLAGS="-std=f2023 -g -fcheck=all -fsanitize=address,undefined -ftrampoline-impl=heap" \
+  scripts/check_all.sh
+```
+
+- `detect_leaks=0`: allocatables of the main program are never
+  deallocated (they are implicitly saved), and gfortran keeps them in the
+  `MAIN__` stack frame, so LeakSanitizer reports them at exit. libgfortran
+  also keeps a `newlocale` allocation. Neither is a real leak; check leaks
+  inside procedures with a dedicated test instead.
+- `allocator_may_return_null=1`: let impossible allocations fail through
+  `stat=` (chapter 24) instead of aborting inside ASan.
+- `-ftrampoline-impl=heap` (GCC 14+): internal procedures passed as
+  arguments (and gfortran's own `reduce` implementation) use stack
+  trampolines, which crash under ASan without any diagnostic.
+
 ## gdb
 
 ```sh

@@ -12,7 +12,7 @@ OUT    ?= build
 OBJS = $(OUT)/units.o $(OUT)/convert.o $(OUT)/main.o
 
 $(OUT)/app: $(OBJS)
-	$(FC) $^ -o $@
+	$(FC) $(FFLAGS) $^ -o $@
 
 $(OUT)/%.o: %.f90 | $(OUT)
 	$(FC) $(FFLAGS) -J $(OUT) -c $< -o $@

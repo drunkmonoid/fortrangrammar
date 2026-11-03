@@ -49,6 +49,8 @@ Termination (`stop`, `error stop`, exit codes) is in chapter 06.
 - Every statement that can fail accepts a status argument; without it a
   failure terminates the program.
 - Messages are only defined on failure — check the status first.
+- An optimiser may delete an allocation whose array is never used; such
+  an allocation then cannot fail (see 01_stat_errmsg.f90).
 - Query lengths first, then allocate exact-length strings for arguments
   and environment values.
 - Internal-file reads need a character variable, not a function result.

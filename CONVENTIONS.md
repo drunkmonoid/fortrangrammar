@@ -62,3 +62,4 @@ printed is shown as the reason):
 - Named `end` statements: `end program hello`, `end subroutine swap`.
 - Comments explain *why* and *what the rule is*; output the program prints is
   shown in a trailing `! Output:` block when it is deterministic.
+  `scripts/check_outputs.sh` verifies those blocks against real runs.

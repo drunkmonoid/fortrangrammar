@@ -61,7 +61,10 @@ contains
     class(any_list), intent(in) :: self
     integer, intent(in) :: i
     class(*), allocatable, intent(out) :: value
-    allocate (value, source=self%items(i)%value)
+    ! Polymorphic intrinsic assignment (F2008). The equivalent
+    ! allocate (value, source=self%items(i)%value) crashes in gfortran 15
+    ! when built with -fcheck=bounds plus -O2 or a sanitizer.
+    value = self%items(i)%value
   end subroutine get
 
 end module any_list_mod

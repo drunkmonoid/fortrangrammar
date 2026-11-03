@@ -55,6 +55,7 @@ from actually compiling the examples, not from documentation.
 | Parameterized derived types: kind/len parameters, inquiry, `(*)`, `(:)` | ✅ | 17/01–03 |
 | PDT structure constructor `t(k)(…)`, default init of `real(k)` components | ❌ | 17/04 |
 | Arrays of types with `class(*)` components: growing via constructor or `move_alloc` of character values | ⚠ crashes / loses length | 20/03 |
+| `allocate (x, source=y)` with `class(*)` x, y under `-fcheck=bounds` + `-O2` or sanitizers | ⚠ segfault; polymorphic assignment `x = y` works | 20/03 |
 | `ieee_rint` under directed rounding | ⚠ results differ from IEEE | 25/05 |
 | Internal procedures as actual arguments | ⚠ needs an executable stack (linker warning) | 12/03 |
 
