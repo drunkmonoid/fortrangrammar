@@ -15,7 +15,7 @@ Status: `[x]` done · `[ ]` pending.
 | 5 | [x] | `05-expressions/` | Operators, precedence, mixed mode, assignment, conditional expressions |
 | 6 | [x] | `06-control-flow/` | `if`, `select case`, `do` forms, `exit`/`cycle`, `block`, `associate`, `stop` |
 | 7 | [x] | `07-arrays-fundamentals/` | Bounds, rank, constructors, sections, whole-array ops, `where` |
-| 8 | [ ] | `08-arrays-dynamic/` | Allocatables, argument shapes, assumed rank, `select rank`, `contiguous` |
+| 8 | [x] | `08-arrays-dynamic/` | Allocatables, argument shapes, assumed rank, `select rank`, `contiguous` |
 | 9 | [ ] | `09-array-intrinsics/` | Construction, reduction, location, manipulation, `matmul`, `reduce` |
 | 10 | [ ] | `10-characters/` | Character kinds, deferred length, substrings, string intrinsics, `split`/`tokenize` |
 | 11 | [ ] | `11-procedures-basics/` | Subroutines, functions, `intent`, `optional`, keywords, `value`, internal procedures |
