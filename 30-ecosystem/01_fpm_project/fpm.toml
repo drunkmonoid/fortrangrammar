@@ -1,0 +1,22 @@
+# fpm.toml - manifest of a Fortran Package Manager project.
+# Layout convention: src/ (library), app/ (executables), test/ (tests).
+name = "stats"
+version = "0.1.0"
+license = "MIT"
+author = "Drunk Monoid"
+description = "Tiny statistics library used to demonstrate fpm"
+
+[build]
+auto-executables = true
+auto-tests = true
+
+[fortran]
+implicit-typing = false        # adds -fimplicit-none
+implicit-external = false
+source-form = "free"
+
+# Dependencies come from git or the fpm registry, e.g.:
+# [dependencies]
+# stdlib = "*"
+# [dev-dependencies]
+# test-drive.git = "https://github.com/fortran-lang/test-drive"

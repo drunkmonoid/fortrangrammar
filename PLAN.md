@@ -37,7 +37,7 @@ Status: `[x]` done · `[ ]` pending.
 | 27 | [x] | `27-c-interop/` | `iso_c_binding`, `bind(c)`, `ISO_Fortran_binding.h`, mixed builds |
 | 28 | [x] | `28-native-parallelism/` | `do concurrent`, coarrays, teams, events, collectives, atomics |
 | 29 | [x] | `29-parallel-ecosystem/` | OpenMP, OpenACC, MPI (`mpi_f08`) |
-| 30 | [ ] | `30-ecosystem/` | fpm, CMake, stdlib, testing, docs, tooling, debugging, support matrix, index |
+| 30 | [x] | `30-ecosystem/` | fpm, CMake, stdlib, testing, docs, tooling, debugging, support matrix, index |
 
 ---
 

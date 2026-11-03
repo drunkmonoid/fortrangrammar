@@ -65,8 +65,13 @@ for chapter in "${chapters[@]}"; do
     rel="${dir#"$root"/}/"
     OUT="$BUILD_DIR/${dir#"$root"/}"
     rm -rf "$OUT" && mkdir -p "$OUT"
-    if FC="$FC" FFLAGS="$FFLAGS" OUT="$OUT" bash "$script" </dev/null >"$log" 2>&1; then
+    FC="$FC" FFLAGS="$FFLAGS" OUT="$OUT" bash "$script" </dev/null >"$log" 2>&1
+    status=$?
+    if [[ $status -eq 0 ]]; then
       ok "$rel"
+    elif [[ $status -eq 77 ]]; then
+      skip=$((skip + 1))
+      printf 'SKIP  %s  (%s)\n' "$rel" "$(tail -n 1 "$log")"
     else
       bad "$rel" "build.sh failed"
       tail -n 20 "$log"

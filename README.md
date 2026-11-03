@@ -8,8 +8,17 @@ every part of the language and the technologies around it, one topic per file.
   standard Fortran, not a vendor dialect.
 - Each chapter has a `README.md` summarising the rules and linking its files.
 
-See [PLAN.md](PLAN.md) for the full roadmap and [CONVENTIONS.md](CONVENTIONS.md)
-for file layout and build directives.
+Start here:
+
+- [INDEX.md](INDEX.md) — every example in the repository, one line each
+- [PLAN.md](PLAN.md) — the 30-phase roadmap
+- [CONVENTIONS.md](CONVENTIONS.md) — file layout and build directives
+- [30-ecosystem/09_feature_support.md](30-ecosystem/09_feature_support.md) —
+  which F2018/F2023 features gfortran 15 accepts
+
+Files that show standard features gfortran 15 does not implement yet are
+still complete, correct examples; they are marked `@build skip` and
+reported as SKIP by the check script.
 
 ## Quick start
 
@@ -17,6 +26,8 @@ for file layout and build directives.
 scripts/run.sh 01-getting-started/01_hello_world.f90   # build + run one example
 scripts/check_all.sh                                   # build + run everything
 scripts/check_all.sh 01-getting-started                # one chapter
+scripts/run.sh 14-modules/08_multi_file/               # a multi-file example
+scripts/make_index.sh > INDEX.md                       # regenerate the index
 FC=ifx FFLAGS="-stand f23 -warn all" scripts/check_all.sh   # another compiler
 ```
 
@@ -55,4 +66,4 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 27 | [C interoperability](27-c-interop/) | ✅ |
 | 28 | [Native parallelism: `do concurrent`, coarrays](28-native-parallelism/) | ✅ |
 | 29 | [Parallel ecosystem: OpenMP, OpenACC, MPI](29-parallel-ecosystem/) | ✅ |
-| 30 | Ecosystem: fpm, CMake, testing, tooling | planned |
+| 30 | [Ecosystem: fpm, CMake, testing, tooling](30-ecosystem/) | ✅ |

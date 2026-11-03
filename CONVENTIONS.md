@@ -43,7 +43,9 @@ scripts how to treat it:
 ## Multi-file examples
 
 A subdirectory containing `build.sh` is a multi-file example. The script is
-called with these environment variables set and must exit non-zero on failure:
+called with these environment variables set and must exit non-zero on failure
+(exit status 77 means "skipped": a required tool is missing; the last line
+printed is shown as the reason):
 
 | Variable | Meaning |
 |---|---|
