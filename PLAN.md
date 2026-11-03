@@ -30,7 +30,7 @@ Status: `[x]` done · `[ ]` pending.
 | 20 | [x] | `20-unlimited-polymorphism/` | `class(*)`, type inquiry, generic containers, defined derived-type I/O |
 | 21 | [x] | `21-pointers/` | `pointer`/`target`, `associated`, remapping, linked structures |
 | 22 | [x] | `22-formatted-io/` | Every edit descriptor, format specifications, unlimited format items |
-| 23 | [ ] | `23-file-io/` | `open`/`close`/`inquire`, access modes, unformatted, stream, `namelist`, async |
+| 23 | [x] | `23-file-io/` | `open`/`close`/`inquire`, access modes, unformatted, stream, `namelist`, async |
 | 24 | [ ] | `24-errors-environment/` | `stat`/`errmsg`/`iostat`, termination, command line, env vars, time, random |
 | 25 | [ ] | `25-numeric-ieee/` | Numeric model inquiry, `ieee_arithmetic`, `ieee_exceptions`, rounding |
 | 26 | [ ] | `26-intrinsic-catalog/` | A–Z reference of intrinsic procedures not covered elsewhere |
