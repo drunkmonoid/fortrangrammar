@@ -49,7 +49,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 21 | [Pointers](21-pointers/) | ✅ |
 | 22 | [Formatted I/O](22-formatted-io/) | ✅ |
 | 23 | [File I/O](23-file-io/) | ✅ |
-| 24 | Errors and the environment | planned |
+| 24 | [Errors and the environment](24-errors-environment/) | ✅ |
 | 25 | Numeric model and IEEE arithmetic | planned |
 | 26 | Intrinsic procedure catalog | planned |
 | 27 | C interoperability | planned |
