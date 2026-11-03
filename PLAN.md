@@ -33,7 +33,7 @@ Status: `[x]` done · `[ ]` pending.
 | 23 | [x] | `23-file-io/` | `open`/`close`/`inquire`, access modes, unformatted, stream, `namelist`, async |
 | 24 | [x] | `24-errors-environment/` | `stat`/`errmsg`/`iostat`, termination, command line, env vars, time, random |
 | 25 | [x] | `25-numeric-ieee/` | Numeric model inquiry, `ieee_arithmetic`, `ieee_exceptions`, rounding |
-| 26 | [ ] | `26-intrinsic-catalog/` | A–Z reference of intrinsic procedures not covered elsewhere |
+| 26 | [x] | `26-intrinsic-catalog/` | A–Z reference of intrinsic procedures not covered elsewhere |
 | 27 | [ ] | `27-c-interop/` | `iso_c_binding`, `bind(c)`, `ISO_Fortran_binding.h`, mixed builds |
 | 28 | [ ] | `28-native-parallelism/` | `do concurrent`, coarrays, teams, events, collectives, atomics |
 | 29 | [ ] | `29-parallel-ecosystem/` | OpenMP, OpenACC, MPI (`mpi_f08`) |

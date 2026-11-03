@@ -51,7 +51,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 23 | [File I/O](23-file-io/) | ✅ |
 | 24 | [Errors and the environment](24-errors-environment/) | ✅ |
 | 25 | [Numeric model and IEEE arithmetic](25-numeric-ieee/) | ✅ |
-| 26 | Intrinsic procedure catalog | planned |
+| 26 | [Intrinsic procedure catalog](26-intrinsic-catalog/) | ✅ |
 | 27 | C interoperability | planned |
 | 28 | Native parallelism: `do concurrent`, coarrays | planned |
 | 29 | Parallel ecosystem: OpenMP, OpenACC, MPI | planned |
