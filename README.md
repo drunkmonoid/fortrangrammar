@@ -43,7 +43,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 15 | [Submodules](15-submodules/) | ✅ |
 | 16 | [Derived types](16-derived-types/) | ✅ |
 | 17 | [Parameterized derived types](17-parameterized-types/) | ✅ |
-| 18 | OOP I: extension and polymorphism | planned |
+| 18 | [OOP I: extension and polymorphism](18-oop-polymorphism/) | ✅ |
 | 19 | OOP II: abstract types, generics, finalization | planned |
 | 20 | Unlimited polymorphism and defined I/O | planned |
 | 21 | Pointers | planned |

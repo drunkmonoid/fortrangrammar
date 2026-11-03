@@ -25,7 +25,7 @@ Status: `[x]` done · `[ ]` pending.
 | 15 | [x] | `15-submodules/` | Separate module procedures, submodule trees, compilation cascades |
 | 16 | [x] | `16-derived-types/` | Components, default init, constructors, nesting, accessibility, `sequence` |
 | 17 | [x] | `17-parameterized-types/` | `kind` and `len` type parameters, assumed/deferred parameters |
-| 18 | [ ] | `18-oop-polymorphism/` | `extends`, `class`, `select type`, type-bound procedures, `pass`/`nopass` |
+| 18 | [x] | `18-oop-polymorphism/` | `extends`, `class`, `select type`, type-bound procedures, `pass`/`nopass` |
 | 19 | [ ] | `19-oop-advanced/` | `abstract`, `deferred`, `non_overridable`, generic bindings, operators, `final` |
 | 20 | [ ] | `20-unlimited-polymorphism/` | `class(*)`, type inquiry, generic containers, defined derived-type I/O |
 | 21 | [ ] | `21-pointers/` | `pointer`/`target`, `associated`, remapping, linked structures |
