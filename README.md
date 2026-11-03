@@ -27,7 +27,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | # | Chapter | Status |
 |---|---|---|
 | 01 | [Getting started](01-getting-started/) | ✅ |
-| 02 | Lexical elements | planned |
+| 02 | [Lexical elements](02-lexical-elements/) | ✅ |
 | 03 | Intrinsic types and kinds | planned |
 | 04 | Declarations and attributes | planned |
 | 05 | Expressions and assignment | planned |
