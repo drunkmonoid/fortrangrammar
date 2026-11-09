@@ -93,7 +93,7 @@ and use them.
 | 57 | [ ] | `57-cxx-interop/` | `extern "C"` between Fortran and C++, including `std::vector` |
 | 58 | [ ] | `58-c-descriptors/` | `CFI_establish`, `CFI_allocate`, lower bounds, character and pointer descriptors |
 | 59 | [ ] | `59-library-abi/` | A versioned `bind(c)` API and the C header a caller compiles against |
-| 60 | [ ] | `60-openmp-patterns/` | `collapse`, array reductions, `simd`, schedules, a data race written so the test cannot hang |
+| 60 | [x] | `60-openmp-patterns/` | `collapse`, array reductions, `simd`, schedules, a data race written so the test cannot hang |
 | 61 | [ ] | `61-mpi-patterns/` | Communicators, struct datatypes, non-blocking halo exchange |
 | 62 | [ ] | `62-coarray-halos/` | A 1-D ring halo with `sync images` |
 | 63 | [ ] | `63-do-concurrent-performance/` | Locality mistakes, `reduce`, checksums rather than timings |
