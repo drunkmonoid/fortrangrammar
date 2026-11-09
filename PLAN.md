@@ -65,7 +65,7 @@ and use them.
 | # | Status | Directory | Topic |
 |---|---|---|---|
 | 31 | [x] | `31-fixed-form/` | Fixed source form, `character*`, statement-style `parameter` and `dimension` |
-| 32 | [ ] | `32-storage-association/` | `common`, `equivalence`, `block data`, the layout-shift bug |
+| 32 | [x] | `32-storage-association/` | `common`, `equivalence`, `block data`, the layout-shift bug |
 | 33 | [ ] | `33-obsolescent-forms/` | Statement functions, `entry`, alternate return, computed `go to`, `forall`, labelled `do` |
 | 34 | [ ] | `34-deleted-features/` | `assign`, assigned `go to`, arithmetic `if`, `pause`, real `do` variables, shared `do` termination |
 | 35 | [ ] | `35-f77-rewrites/` | Complete Fortran 77 programs beside the modern equivalent |

@@ -10,7 +10,7 @@
 !   module              shared types, data and procedures    (chapter 14)
 !   submodule           implementation half of a module      (chapter 15)
 !   external subprogram a stand-alone subroutine or function (below)
-!   block data          obsolescent since F2018, not covered
+!   block data          obsolescent since F2018 (chapter 32)
 !
 ! One source file may contain several program units. A module must be
 ! compiled before any unit that USEs it, so it comes first in the file.
