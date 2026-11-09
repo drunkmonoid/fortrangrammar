@@ -89,6 +89,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 68 | [Error library](68-error-library/) | ✅ |
 | 71 | [Continuous integration](71-ci/) | ✅ |
 | 72 | [Debugging a wrong answer](72-debugging-numerics/) | ✅ |
+| 73 | [Profiling](73-profiling/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
