@@ -78,7 +78,7 @@ and use them.
 | 42 | [ ] | `42-blas/` | `gemv` and `gemm`: leading dimensions, transpose, linking |
 | 43 | [ ] | `43-lapack/` | Factor and solve, least squares, symmetric eigenvalues |
 | 44 | [x] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
-| 45 | [ ] | `45-quadrature/` | Trapezoid, Simpson, Gauss quadrature, scalar root finding |
+| 45 | [x] | `45-quadrature/` | Trapezoid, Simpson, Gauss quadrature, scalar root finding |
 | 46 | [ ] | `46-ode/` | Euler and classical Runge–Kutta on a problem with a known solution |
 | 47 | [ ] | `47-fftw/` | FFTW plans, real-to-complex transforms, cleanup |
 | 48 | [ ] | `48-random-variates/` | Normal and discrete variates, independent streams, a Monte Carlo integral |
