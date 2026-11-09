@@ -83,7 +83,7 @@ and use them.
 | 47 | [ ] | `47-fftw/` | FFTW plans, real-to-complex transforms, cleanup |
 | 48 | [ ] | `48-random-variates/` | Normal and discrete variates, independent streams, a Monte Carlo integral |
 | 49 | [x] | `49-generic-kernels/` | One kernel for `real32`, `real64` and `real128` without templates |
-| 50 | [ ] | `50-csv/` | Read and write CSV, including quoted fields and ragged rows |
+| 50 | [x] | `50-csv/` | Read and write CSV, including quoted fields and ragged rows |
 | 51 | [ ] | `51-configuration/` | Namelist configuration with defaults, validation and environment overrides |
 | 52 | [ ] | `52-json/` | A dependency-free JSON subset, plus an optional json-fortran example |
 | 53 | [ ] | `53-toml/` | Read a TOML manifest with toml-f |

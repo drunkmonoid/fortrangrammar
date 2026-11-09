@@ -82,6 +82,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 45 | [Quadrature and roots](45-quadrature/) | ✅ |
 | 46 | [ODEs](46-ode/) | ✅ |
 | 49 | [Generic kernels](49-generic-kernels/) | ✅ |
+| 50 | [CSV](50-csv/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
