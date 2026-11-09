@@ -76,6 +76,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 35 | [Fortran 77 rewrites](35-f77-rewrites/) | ✅ |
 | 36 | [Conformance](36-conformance/) | ✅ |
 | 37 | [Compiler portability](37-compiler-portability/) | ✅ |
+| 38 | [Fortran 202Y](38-fortran-202y/) | ✅ |
 | 39 | [Array performance](39-array-performance/) | ✅ |
 | 40 | [Floating-point practice](40-floating-point-practice/) | ✅ |
 | 44 | [Sparse matrices](44-sparse/) | ✅ |

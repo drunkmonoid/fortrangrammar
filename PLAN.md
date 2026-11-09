@@ -71,7 +71,7 @@ and use them.
 | 35 | [x] | `35-f77-rewrites/` | Complete Fortran 77 programs beside the modern equivalent |
 | 36 | [x] | `36-conformance/` | Programs the standard leaves undefined, and what the compiler can still catch |
 | 37 | [x] | `37-compiler-portability/` | One example set under gfortran, ifx and flang; a support matrix |
-| 38 | [ ] | `38-fortran-202y/` | Fortran 202Y draft, chiefly templates, marked `@build skip` until a compiler accepts them |
+| 38 | [x] | `38-fortran-202y/` | Fortran 202Y draft, chiefly templates, marked `@build skip` until a compiler accepts them |
 | 39 | [x] | `39-array-performance/` | Temporaries, contiguity, column-major traversal, elemental calls |
 | 40 | [x] | `40-floating-point-practice/` | Reproducible sums, fused multiply-add, what `-ffast-math` changes |
 | 41 | [ ] | `41-stdlib/` | stdlib strings, linalg, stats, optval, logger |
