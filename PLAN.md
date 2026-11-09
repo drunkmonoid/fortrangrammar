@@ -91,7 +91,7 @@ and use them.
 | 55 | [ ] | `55-netcdf/` | A dimension, a variable and an attribute |
 | 56 | [x] | `56-python-interop/` | A Fortran array kernel called from Python |
 | 57 | [x] | `57-cxx-interop/` | `extern "C"` between Fortran and C++, including `std::vector` |
-| 58 | [ ] | `58-c-descriptors/` | `CFI_establish`, `CFI_allocate`, lower bounds, character and pointer descriptors |
+| 58 | [x] | `58-c-descriptors/` | `CFI_establish`, `CFI_allocate`, lower bounds, character and pointer descriptors |
 | 59 | [ ] | `59-library-abi/` | A versioned `bind(c)` API and the C header a caller compiles against |
 | 60 | [x] | `60-openmp-patterns/` | `collapse`, array reductions, `simd`, schedules, a data race written so the test cannot hang |
 | 61 | [ ] | `61-mpi-patterns/` | Communicators, struct datatypes, non-blocking halo exchange |

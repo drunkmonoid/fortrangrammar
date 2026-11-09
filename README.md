@@ -93,6 +93,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 52 | [JSON](52-json/) | ✅ |
 | 56 | [Python interop](56-python-interop/) | ✅ |
 | 57 | [C++ interop](57-cxx-interop/) | ✅ |
+| 58 | [C descriptors](58-c-descriptors/) | ✅ |
 | 60 | [OpenMP patterns](60-openmp-patterns/) | ✅ |
 | 63 | [`do concurrent` performance](63-do-concurrent-performance/) | ✅ |
 | 68 | [Error library](68-error-library/) | ✅ |
