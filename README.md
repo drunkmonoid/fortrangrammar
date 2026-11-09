@@ -85,6 +85,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 50 | [CSV](50-csv/) | ✅ |
 | 51 | [Configuration](51-configuration/) | ✅ |
 | 60 | [OpenMP patterns](60-openmp-patterns/) | ✅ |
+| 63 | [`do concurrent` performance](63-do-concurrent-performance/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
