@@ -80,6 +80,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 39 | [Array performance](39-array-performance/) | ✅ |
 | 40 | [Floating-point practice](40-floating-point-practice/) | ✅ |
 | 41 | [stdlib](41-stdlib/) | ✅ |
+| 42 | [BLAS](42-blas/) | ✅ |
 | 44 | [Sparse matrices](44-sparse/) | ✅ |
 | 45 | [Quadrature and roots](45-quadrature/) | ✅ |
 | 46 | [ODEs](46-ode/) | ✅ |
