@@ -101,7 +101,7 @@ and use them.
 | 65 | [ ] | `65-gpu-offload/` | OpenMP `target` `map` on a saxpy, correct when the device is the host |
 | 66 | [ ] | `66-mpi-io/` | Write and read a distributed array with MPI-IO |
 | 67 | [ ] | `67-fypp/` | Kind-generic source generated with fypp |
-| 68 | [ ] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |
+| 68 | [x] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |
 | 69 | [ ] | `69-test-drive/` | An fpm package whose tests use test-drive |
 | 70 | [ ] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
 | 71 | [ ] | `71-ci/` | GitHub Actions running `scripts/check_all.sh` on gfortran 15 |
