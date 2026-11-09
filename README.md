@@ -85,6 +85,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 45 | [Quadrature and roots](45-quadrature/) | ✅ |
 | 46 | [ODEs](46-ode/) | ✅ |
 | 47 | [FFTW](47-fftw/) | ✅ |
+| 48 | [Random variates](48-random-variates/) | ✅ |
 | 49 | [Generic kernels](49-generic-kernels/) | ✅ |
 | 50 | [CSV](50-csv/) | ✅ |
 | 51 | [Configuration](51-configuration/) | ✅ |
