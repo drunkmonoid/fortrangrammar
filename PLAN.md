@@ -105,7 +105,7 @@ and use them.
 | 69 | [ ] | `69-test-drive/` | An fpm package whose tests use test-drive |
 | 70 | [ ] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
 | 71 | [x] | `71-ci/` | GitHub Actions running `scripts/check_all.sh` on gfortran 15 |
-| 72 | [ ] | `72-debugging-numerics/` | An off-by-one and an uninitialised real, then the corrected program |
+| 72 | [x] | `72-debugging-numerics/` | An off-by-one and an uninitialised real, then the corrected program |
 | 73 | [ ] | `73-profiling/` | Find an array temporary and remove it, checksum unchanged |
 | 74 | [ ] | `74-capstone/` | A small library: modules, tests, fpm, a C API, an optional Python caller |
 
