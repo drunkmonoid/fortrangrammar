@@ -76,7 +76,7 @@ and use them.
 | 40 | [x] | `40-floating-point-practice/` | Reproducible sums, fused multiply-add, what `-ffast-math` changes |
 | 41 | [x] | `41-stdlib/` | stdlib strings, linalg, stats, optval, logger |
 | 42 | [x] | `42-blas/` | `gemv` and `gemm`: leading dimensions, transpose, linking |
-| 43 | [ ] | `43-lapack/` | Factor and solve, least squares, symmetric eigenvalues |
+| 43 | [x] | `43-lapack/` | Factor and solve, least squares, symmetric eigenvalues |
 | 44 | [x] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
 | 45 | [x] | `45-quadrature/` | Trapezoid, Simpson, Gauss quadrature, scalar root finding |
 | 46 | [x] | `46-ode/` | Euler and classical Runge–Kutta on a problem with a known solution |
