@@ -74,7 +74,7 @@ and use them.
 | 38 | [x] | `38-fortran-202y/` | Fortran 202Y draft, chiefly templates, marked `@build skip` until a compiler accepts them |
 | 39 | [x] | `39-array-performance/` | Temporaries, contiguity, column-major traversal, elemental calls |
 | 40 | [x] | `40-floating-point-practice/` | Reproducible sums, fused multiply-add, what `-ffast-math` changes |
-| 41 | [ ] | `41-stdlib/` | stdlib strings, linalg, stats, optval, logger |
+| 41 | [x] | `41-stdlib/` | stdlib strings, linalg, stats, optval, logger |
 | 42 | [ ] | `42-blas/` | `gemv` and `gemm`: leading dimensions, transpose, linking |
 | 43 | [ ] | `43-lapack/` | Factor and solve, least squares, symmetric eigenvalues |
 | 44 | [x] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
