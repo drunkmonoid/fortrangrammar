@@ -12,7 +12,7 @@ if [[ $# -gt 0 ]]; then chapters=("$@"); else chapters=("$root"/[0-9][0-9]-*/); 
 same=0
 different=0
 for chapter in "${chapters[@]}"; do
-  for src in "$chapter"/*.f90 "$chapter"/*.F90; do
+  for src in "$chapter"/*.f90 "$chapter"/*.F90 "$chapter"/*.f; do
     grep -q '^! Output:' "$src" || continue
     rel="$(realpath --relative-to="$root" "$src")"
     if ! exe="$(build_one "$src" 2>/dev/null)"; then

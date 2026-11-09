@@ -19,14 +19,23 @@ for chapter in [0-9][0-9]-*/; do
   echo
   echo "| Example | Description |"
   echo "|---|---|"
-  for f in "$chapter"/*.f90 "$chapter"/*.F90 "$chapter"/*.md "$chapter"/*/; do
+  # Source files are sorted by name so 01_*.f precedes 02_*.f90. Markdown
+  # notes and multi-file directories keep their previous position, after
+  # the sources.
+  sources=("$chapter"/*.f90 "$chapter"/*.F90 "$chapter"/*.f)
+  if ((${#sources[@]})); then
+    mapfile -t sources < <(printf '%s\n' "${sources[@]}" | sort)
+  fi
+  for f in "${sources[@]}" "$chapter"/*.md "$chapter"/*.sh "$chapter"/*/; do
     name="$(basename "$f")"
     [[ $name == README.md ]] && continue
     if [[ -d $f ]]; then
-      desc="multi-file example ($(ls "$f" | grep -E '\.(f90|F90|c|h|toml|txt)$|Makefile|CMakeLists' | tr '\n' ' ' | sed 's/ $//'))"
+      desc="multi-file example ($(ls "$f" | grep -E '\.(f90|F90|f|c|h|toml|txt)$|Makefile|CMakeLists' | tr '\n' ' ' | sed 's/ $//'))"
       name="$name/"
     elif [[ $name == *.md ]]; then
       desc="$(sed -n '1s/^# //p' "$f")"
+    elif [[ $name == *.sh ]]; then
+      desc="$(grep -m1 -E '^# ' "$f" | sed 's/^# //')"
     else
       desc="$(grep -m1 -E "^! $name - " "$f" | sed "s/^! $name - //")"
     fi

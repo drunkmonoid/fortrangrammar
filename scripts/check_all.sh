@@ -25,7 +25,7 @@ trap 'rm -f "$log"' EXIT
 for chapter in "${chapters[@]}"; do
   chapter="$(realpath "$chapter")"
 
-  for src in "$chapter"/*.f90 "$chapter"/*.F90; do
+  for src in "$chapter"/*.f90 "$chapter"/*.F90 "$chapter"/*.f; do
     rel="${src#"$root"/}"
     mode="$(directive build "$src")"
 

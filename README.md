@@ -69,3 +69,8 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 28 | [Native parallelism: `do concurrent`, coarrays](28-native-parallelism/) | ✅ |
 | 29 | [Parallel ecosystem: OpenMP, OpenACC, MPI](29-parallel-ecosystem/) | ✅ |
 | 30 | [Ecosystem: fpm, CMake, testing, tooling](30-ecosystem/) | ✅ |
+| 31 | [Fixed form and old declarations](31-fixed-form/) | ✅ |
+
+The remaining phases of the first continuation, and a second haul in
+phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
+structures, parsers, numerical methods, small applications, and exercises.

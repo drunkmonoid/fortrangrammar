@@ -6,6 +6,7 @@
 NN-topic/
   README.md             explanation of the chapter, links to every example
   MM_subtopic.f90       one standalone program per subtopic
+  MM_subtopic.f         a fixed-form program (the .f extension selects it)
   MM_subtopic/          multi-file example (modules, C interop, ...)
     build.sh            builds and runs it (see below)
 ```
@@ -35,7 +36,7 @@ scripts how to treat it:
 |---|---|
 | `! @build fail` | Must **fail** to compile (demonstrates a compile-time error) |
 | `! @build skip <reason>` | Not compiled (e.g. compiler lacks the feature, MPI not installed) |
-| `! @flags <flags>` | Extra compiler flags (e.g. `-fopenmp`, `-fcoarray=single`) |
+| `! @flags <flags>` | Extra compiler flags, placed after `FFLAGS` (a later `-std=` wins) |
 | `! @run no` | Compile only, do not run |
 | `! @exit <n>` | Program is expected to terminate with exit status `n` |
 | `! @args <args>` | Command-line arguments passed when run by `check_all.sh` |
