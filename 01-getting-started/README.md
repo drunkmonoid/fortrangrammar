@@ -44,7 +44,8 @@ scripts/check_all.sh 01-getting-started     # every example in the chapter
 This tutorial teaches the language as defined by **Fortran 2023**. Each file
 notes when a feature was introduced only where that matters for compiler
 support. Fortran 2023 is a superset of 2018 except for a short list of
-deleted/obsolescent features, which this tutorial simply does not use.
+deleted and obsolescent features. Chapters 31–34 are those forms, and
+what to write instead.
 
 ## Statement order inside a program unit
 

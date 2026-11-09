@@ -72,6 +72,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 31 | [Fixed form and old declarations](31-fixed-form/) | ✅ |
 | 32 | [Storage association](32-storage-association/) | ✅ |
 | 33 | [Obsolescent forms](33-obsolescent-forms/) | ✅ |
+| 34 | [Deleted features](34-deleted-features/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data

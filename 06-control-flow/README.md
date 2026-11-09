@@ -52,5 +52,5 @@ name: associate (a => expr) ... end associate name
 - `block` hides outer names and deallocates its allocatables on exit.
 - An `associate` alias to a variable writes through; an alias to an
   expression is a read-only snapshot.
-- Deleted/obsolescent forms not used here: real loop variables, labelled
-  `do 10 …`, arithmetic `if`, computed `go to`, `pause`.
+- Labelled `do`, computed `go to`, arithmetic `if`, `pause` and a real
+  loop variable are chapters 33 and 34.
