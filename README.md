@@ -89,6 +89,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 49 | [Generic kernels](49-generic-kernels/) | ✅ |
 | 50 | [CSV](50-csv/) | ✅ |
 | 51 | [Configuration](51-configuration/) | ✅ |
+| 52 | [JSON](52-json/) | ✅ |
 | 60 | [OpenMP patterns](60-openmp-patterns/) | ✅ |
 | 63 | [`do concurrent` performance](63-do-concurrent-performance/) | ✅ |
 | 68 | [Error library](68-error-library/) | ✅ |

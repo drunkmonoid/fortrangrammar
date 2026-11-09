@@ -85,7 +85,7 @@ and use them.
 | 49 | [x] | `49-generic-kernels/` | One kernel for `real32`, `real64` and `real128` without templates |
 | 50 | [x] | `50-csv/` | Read and write CSV, including quoted fields and ragged rows |
 | 51 | [x] | `51-configuration/` | Namelist configuration with defaults, validation and environment overrides |
-| 52 | [ ] | `52-json/` | A dependency-free JSON subset, plus an optional json-fortran example |
+| 52 | [x] | `52-json/` | A dependency-free JSON subset, plus an optional json-fortran example |
 | 53 | [ ] | `53-toml/` | Read a TOML manifest with toml-f |
 | 54 | [ ] | `54-hdf5/` | Create a file, write a dataset and an attribute, read them back |
 | 55 | [ ] | `55-netcdf/` | A dimension, a variable and an attribute |
