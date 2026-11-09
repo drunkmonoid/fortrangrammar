@@ -49,4 +49,5 @@ in chapter 08; the library of array intrinsics is chapter 09.
 - Shapes must conform; `-fcheck=all` catches mismatches at run time.
 - `where` evaluates elemental operations only where the mask holds;
   `merge` evaluates everything.
-- `forall` is obsolescent since F2018: use `do concurrent` (chapter 28).
+- `forall` is obsolescent since F2018. The statement is chapter 33;
+  `do concurrent` is chapter 28.
