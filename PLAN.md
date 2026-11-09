@@ -80,7 +80,7 @@ and use them.
 | 44 | [x] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
 | 45 | [x] | `45-quadrature/` | Trapezoid, Simpson, Gauss quadrature, scalar root finding |
 | 46 | [x] | `46-ode/` | Euler and classical Runge–Kutta on a problem with a known solution |
-| 47 | [ ] | `47-fftw/` | FFTW plans, real-to-complex transforms, cleanup |
+| 47 | [x] | `47-fftw/` | FFTW plans, real-to-complex transforms, cleanup |
 | 48 | [ ] | `48-random-variates/` | Normal and discrete variates, independent streams, a Monte Carlo integral |
 | 49 | [x] | `49-generic-kernels/` | One kernel for `real32`, `real64` and `real128` without templates |
 | 50 | [x] | `50-csv/` | Read and write CSV, including quoted fields and ragged rows |
