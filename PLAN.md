@@ -89,7 +89,7 @@ and use them.
 | 53 | [ ] | `53-toml/` | Read a TOML manifest with toml-f |
 | 54 | [ ] | `54-hdf5/` | Create a file, write a dataset and an attribute, read them back |
 | 55 | [ ] | `55-netcdf/` | A dimension, a variable and an attribute |
-| 56 | [ ] | `56-python-interop/` | A Fortran array kernel called from Python |
+| 56 | [x] | `56-python-interop/` | A Fortran array kernel called from Python |
 | 57 | [ ] | `57-cxx-interop/` | `extern "C"` between Fortran and C++, including `std::vector` |
 | 58 | [ ] | `58-c-descriptors/` | `CFI_establish`, `CFI_allocate`, lower bounds, character and pointer descriptors |
 | 59 | [ ] | `59-library-abi/` | A versioned `bind(c)` API and the C header a caller compiles against |
