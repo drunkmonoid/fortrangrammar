@@ -74,6 +74,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 33 | [Obsolescent forms](33-obsolescent-forms/) | ✅ |
 | 34 | [Deleted features](34-deleted-features/) | ✅ |
 | 35 | [Fortran 77 rewrites](35-f77-rewrites/) | ✅ |
+| 36 | [Conformance](36-conformance/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
