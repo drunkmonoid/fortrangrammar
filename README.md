@@ -78,6 +78,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 37 | [Compiler portability](37-compiler-portability/) | ✅ |
 | 39 | [Array performance](39-array-performance/) | ✅ |
 | 40 | [Floating-point practice](40-floating-point-practice/) | ✅ |
+| 44 | [Sparse matrices](44-sparse/) | ✅ |
 
 The remaining phases of the first continuation, and a second haul in
 phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data

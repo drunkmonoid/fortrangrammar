@@ -77,7 +77,7 @@ and use them.
 | 41 | [ ] | `41-stdlib/` | stdlib strings, linalg, stats, optval, logger |
 | 42 | [ ] | `42-blas/` | `gemv` and `gemm`: leading dimensions, transpose, linking |
 | 43 | [ ] | `43-lapack/` | Factor and solve, least squares, symmetric eigenvalues |
-| 44 | [ ] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
+| 44 | [x] | `44-sparse/` | COO and CSR, sparse matvec, a Jacobi or conjugate-gradient solver |
 | 45 | [ ] | `45-quadrature/` | Trapezoid, Simpson, Gauss quadrature, scalar root finding |
 | 46 | [ ] | `46-ode/` | Euler and classical Runge–Kutta on a problem with a known solution |
 | 47 | [ ] | `47-fftw/` | FFTW plans, real-to-complex transforms, cleanup |
