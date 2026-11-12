@@ -102,6 +102,9 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 72 | [Debugging a wrong answer](72-debugging-numerics/) | ✅ |
 | 73 | [Profiling](73-profiling/) | ✅ |
 
-The remaining phases of the first continuation, and a second haul in
-phases 75–114, are listed in [PLAN.md](PLAN.md). Phases 75–114 are data
-structures, parsers, numerical methods, small applications, and exercises.
+The remaining phases of the first continuation, a second haul in phases
+75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
+Phases 75–114 are data structures, parsers, numerical methods, small
+applications, and exercises. Phases 115–154 compare the standard revisions
+by compiling with each one's `-std`, then cover algorithms, more numerical
+methods, design with the type system, binary data, and quality tooling.

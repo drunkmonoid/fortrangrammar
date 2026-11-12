@@ -6,7 +6,9 @@ you meet in existing code, numerical libraries, data formats, interop,
 parallel applications, and shipping a library. Phases 75–114 are a second
 haul: data structures, parsers, classical numerical methods, small
 applications, and exercises. They use only the compiler. They do not
-replace unfinished rows in 31–74.
+replace unfinished rows in 31–74. Phases 115–154 are a third haul: what
+each standard revision added, algorithms, more numerical methods, design
+with the type system, binary data, and quality tooling.
 
 Each phase is one directory, one commit, one push.
 Status: `[x]` done · `[ ]` pending.
@@ -165,6 +167,67 @@ compiler exits 77.
 | 112 | [ ] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
 | 113 | [ ] | `113-sanitizers/` | A CI job with `-fsanitize=address,undefined` on a safe subset |
 | 114 | [ ] | `114-learning-paths/` | Three reading orders: language, numerics, applications |
+
+## Third haul: phases 115–154
+
+Same rules as the second haul: printed results are integers, logicals or a
+checksum, timings stay in the README, and a phase that needs a tool beyond
+the compiler exits 77. The standards track compiles with an older `-std=`
+through `! @flags`; gfortran honours the last `-std` on the command line,
+so the directive overrides the default `-std=f2023`. Phases cite and reuse
+the second haul where they build on it.
+
+| Track | Phases | Aim |
+|---|---|---|
+| Standards, then and now | 115–120 | What each revision added, checked by compiling with that revision's `-std` |
+| Algorithms | 121–130 | Sorting, strings, dynamic programming, exact arithmetic, graphs, simulation |
+| Numerical methods II | 131–139 | Derivatives, intervals, adaptive methods, hand-written factorisations, FFT, multigrid |
+| Design with the type system | 140–145 | Units, state machines, callbacks, ownership, operators, iteration |
+| Programs and binary data | 146–149 | A command-line tool, a WAV file, UTF-8, logging |
+| Quality | 150–154 | Coverage, property tests, fuzzing, vectorisation, cache blocking |
+
+| # | Status | Directory | Topic |
+|---|---|---|---|
+| 115 | [ ] | `115-fortran-90-95/` | Modules, free form, allocatables, `pure`/`elemental`, built with `-std=f95` |
+| 116 | [ ] | `116-fortran-2003/` | OOP, C interop, IEEE modules, stream I/O, built with `-std=f2003` |
+| 117 | [ ] | `117-fortran-2008/` | Coarrays, submodules, `do concurrent`, `block`, built with `-std=f2008` |
+| 118 | [ ] | `118-fortran-2018/` | Assumed rank, teams, events, `implicit none (external)`, built with `-std=f2018` |
+| 119 | [ ] | `119-minimum-standard/` | A script that reports the oldest `-std` each example in chapters 01–30 accepts |
+| 120 | [ ] | `120-one-program-five-revisions/` | One statistics program in F77, F90, F2003, F2008 and F2018 style, identical output |
+| 121 | [ ] | `121-sorting/` | Insertion, merge and quick sort, and a stable index sort, on a fixed array |
+| 122 | [ ] | `122-string-search/` | Naive search and Knuth–Morris–Pratt, checked against `index` |
+| 123 | [ ] | `123-dynamic-programming/` | Longest common subsequence and edit distance of fixed strings |
+| 124 | [ ] | `124-big-integers/` | Arbitrary-precision add and multiply; 30! exactly |
+| 125 | [ ] | `125-rationals/` | A rational type with operators; the exact sum of 1/k for k = 1..10 |
+| 126 | [ ] | `126-dijkstra/` | Shortest paths with the heap of phase 77 on the graph of phase 80 |
+| 127 | [ ] | `127-topological-sort/` | Kahn's algorithm on a DAG, and a cycle reported |
+| 128 | [ ] | `128-bit-sets/` | Sets packed in `int64` words; a sieve of Eratosthenes on bits |
+| 129 | [ ] | `129-event-simulation/` | A single-server queue driven by phase 97's generator, fixed seed |
+| 130 | [ ] | `130-calendars/` | Leap years, day of week, Julian day number, days between dates |
+| 131 | [ ] | `131-dual-numbers/` | Forward-mode automatic differentiation with overloaded operators |
+| 132 | [ ] | `132-interval-arithmetic/` | Intervals with directed rounding (chapter 25) that enclose a sum |
+| 133 | [ ] | `133-adaptive-quadrature/` | Recursive adaptive Simpson, error and evaluation count |
+| 134 | [ ] | `134-adaptive-ode/` | An embedded Runge–Kutta pair with step-size control |
+| 135 | [ ] | `135-stiff-ode/` | Backward Euler with Newton on a stiff problem where explicit Euler fails |
+| 136 | [ ] | `136-lu-qr/` | LU with partial pivoting and modified Gram–Schmidt QR, written by hand |
+| 137 | [ ] | `137-eigenvalues/` | Power and inverse iteration on a symmetric 3×3 with known eigenvalues |
+| 138 | [ ] | `138-fft/` | Iterative radix-2 FFT checked against a direct DFT and its inverse |
+| 139 | [ ] | `139-multigrid/` | A 1-D V-cycle for phase 90's Poisson problem, residual reduction per cycle |
+| 140 | [ ] | `140-units-of-measure/` | Length, time and speed as distinct types; adding metres to seconds fails to compile |
+| 141 | [ ] | `141-state-machines/` | A transition table of procedure pointers driving a fixed event sequence |
+| 142 | [ ] | `142-observers/` | An event bus with an abstract handler type and registered listeners |
+| 143 | [ ] | `143-reference-counting/` | A shared buffer with a count, released by final procedures |
+| 144 | [ ] | `144-matrix-type/` | A dense matrix type with operators, checked against `matmul` |
+| 145 | [ ] | `145-iterators/` | An abstract iterator over phase 81's sorted table |
+| 146 | [ ] | `146-wc/` | A `wc`-style tool: lines, words and bytes of files named on the command line |
+| 147 | [ ] | `147-wav/` | Write a 16-bit PCM WAV with stream access and read its header back |
+| 148 | [ ] | `148-utf8/` | Decode UTF-8 bytes to code points; characters versus bytes |
+| 149 | [ ] | `149-logging/` | Levels, units, a module logger versus a logger object |
+| 150 | [ ] | `150-coverage/` | `--coverage` and gcov on a small module; exit 77 without gcov |
+| 151 | [ ] | `151-property-tests/` | Invariants for phase 121's sorts and phase 125's rationals on seeded random input |
+| 152 | [ ] | `152-fuzzing/` | Random byte strings fed to phase 83's lexer: it always terminates and never crashes |
+| 153 | [ ] | `153-vectorisation/` | `-fopt-info-vec` on chapter 39's loops; which vectorise and why not |
+| 154 | [ ] | `154-cache-blocking/` | Blocked versus naive matrix multiply, identical checksum |
 
 ---
 
@@ -921,3 +984,229 @@ chapter numbers with one line on why it is next:
 
 Each path names the unfinished phases it is waiting on, so a reader
 does not open an empty directory. No new Fortran.
+
+### 115 — Fortran 90 and 95
+The features that made "modern Fortran": free form, modules, `implicit
+none`, derived types, allocatable arrays, array syntax, `pure` and
+`elemental`, `forall`. Every file carries `! @flags -std=f95`. One `@build
+fail` file adds a single F2003 feature (an allocatable component) to show
+the diagnostic that `-std=f95` gives.
+
+### 116 — Fortran 2003
+Type extension and `class`, type-bound procedures, `iso_c_binding`, the
+IEEE modules, stream access, `move_alloc`, allocatable components and
+deferred-length strings. Built with `-std=f2003`, plus one `@build fail`
+file using `block` (F2008).
+
+### 117 — Fortran 2008
+Submodules, `do concurrent`, `block`, `contiguous`, `newunit`, `g0`,
+`execute_command_line`, coarrays under `-fcoarray=single`. Built with
+`-std=f2008`, plus a `@build fail` file using `select rank` (F2018).
+
+### 118 — Fortran 2018
+Assumed rank and `select rank`, `implicit none (type, external)`,
+collectives, events, `random_init`, `error stop` in pure procedures,
+C descriptors. Built with `-std=f2018`, plus a `@build fail` file using a
+F2023 feature gfortran implements (`sind` or `selected_logical_kind`).
+
+### 119 — Minimum standard
+`build.sh` compiles every example in chapters 01–30 under `-std=f95`,
+`f2003`, `f2008`, `f2018` and `f2023`, and prints a table of the oldest
+revision each file accepts plus a count per revision. Files marked
+`@build skip` or `@build fail` are left out. The table is the output; the
+README discusses the surprises.
+
+### 120 — One program, five revisions
+A small statistics program (mean, variance, a histogram written to a
+unit) in the idiom of F77, F90, F2003, F2008 and F2018. Each file is
+built with its own `-std` (fixed form for F77, as in phase 31). All five
+print the same lines. The README tabulates what each rewrite changed.
+
+### 121 — Sorting
+Insertion sort, top-down merge sort with a work array, quicksort with
+median-of-three, and a stable sort that returns an index permutation.
+All sort the same fixed array; the program prints the sorted values once
+and a logical per algorithm saying it agrees.
+
+### 122 — String search
+A naive substring search and Knuth–Morris–Pratt with its failure table.
+On a fixed text, every match position from both is printed and compared
+with repeated calls to `index` (chapter 10).
+
+### 123 — Dynamic programming
+Longest common subsequence and Levenshtein distance by tabulation, with a
+traceback for the LCS. Fixed string pairs with known answers, including
+an empty string.
+
+### 124 — Big integers
+Non-negative integers stored as base-10⁹ limbs in an allocatable `int64`
+array: addition, multiplication by a small integer, full multiplication,
+and decimal output. Print 30! and 2¹⁰⁰ exactly. No external library.
+
+### 125 — Rationals
+`type(rational)` with `int64` numerator and denominator, normalised by
+`gcd`, sign kept in the numerator, and operators `+ - * / == <` (chapter
+19's type-bound generics). Print the exact sum of 1/k for k = 1..10.
+
+### 126 — Dijkstra
+Shortest paths on a small weighted graph, reusing the heap from phase 77
+and the adjacency list from phase 80, with simple local copies if those
+modules are not linked. Print each distance, with one unreachable vertex.
+
+### 127 — Topological sort
+Kahn's algorithm with in-degree counts. Print an order for a fixed DAG
+(the build order of chapter 14's three modules is the example), then add
+an edge that makes a cycle and print the cycle status.
+
+### 128 — Bit sets
+A set type over `integer(int64)` words with insert, remove, membership,
+union, intersection and `popcnt`-based size (chapter 26). A bit sieve
+counts the primes below 10 000 (1229).
+
+### 129 — Discrete-event simulation
+A single-server queue: arrival and service times from phase 97's linear
+congruential generator with a fixed seed, events kept in phase 77's heap.
+Print the number served and the integer total waiting time. The model is
+deterministic, so the checksum is exact.
+
+### 130 — Calendars
+Gregorian leap years, day of week, Julian day number and its inverse,
+and days between two dates. Check against fixed dates whose answers are
+known, and against `date_and_time` (chapter 24) only for consistency, not
+for a printed value.
+
+### 131 — Dual numbers
+`type(dual)` holding a value and a derivative, with overloaded arithmetic
+and elemental `sin`, `exp` and `log`. Differentiate a polynomial (exact)
+and a composite function (within a tolerance), printed as logicals.
+
+### 132 — Interval arithmetic
+An interval type whose `+` and `*` round the lower bound down and the
+upper bound up with `ieee_set_rounding_mode` (chapter 25). Sum 0.1 ten
+times and print whether the interval contains 1 and whether it is
+narrower than a few ULPs. Avoids `ieee_rint` (see chapter 25's caveat).
+
+### 133 — Adaptive quadrature
+Recursive adaptive Simpson with a tolerance and a depth limit, on a
+function with a sharp peak. Print whether the error is below the
+tolerance and the number of function evaluations, compared with phase
+45's fixed-step rule at the same accuracy.
+
+### 134 — Adaptive ODE
+An embedded Runge–Kutta pair (Bogacki–Shampine or Dormand–Prince) with
+step-size control on y' = −y and on a circular orbit. Print the number of
+accepted and rejected steps and whether the final error meets the
+tolerance.
+
+### 135 — Stiff ODE
+y' = −1000(y − cos t). Explicit Euler with a moderate step grows without
+bound; backward Euler, with a Newton solve at each step, stays bounded
+and close to the exact solution. Print both outcomes as logicals.
+
+### 136 — LU and QR by hand
+Doolittle LU with partial pivoting, then forward and back substitution;
+modified Gram–Schmidt QR. On a fixed 4×4 system print whether the
+residuals are tiny and whether Q is orthogonal. Phase 43 does the same
+with LAPACK; the README compares the two.
+
+### 137 — Eigenvalues
+Power iteration for the largest eigenvalue and inverse iteration (with
+phase 136's LU) for the smallest, on a symmetric 3×3 matrix with integer
+eigenvalues. Print the rounded eigenvalues and iteration counts.
+
+### 138 — FFT
+An iterative radix-2 Cooley–Tukey FFT with bit reversal, checked against
+an O(n²) DFT and inverted back. Print whether both checks pass and the
+index of the dominant frequency of a fixed signal. Phase 47 does this with
+FFTW.
+
+### 139 — Multigrid
+A 1-D V-cycle for phase 90's Poisson problem: weighted Jacobi smoothing,
+full-weighting restriction, linear interpolation, and a direct solve on
+the coarsest grid. Print the residual reduction factor of each cycle,
+rounded, and the number of cycles needed for a tolerance.
+
+### 140 — Units of measure
+`type(metres)`, `type(seconds)` and `type(metres_per_second)` with only
+the physically meaningful operators defined. A computed speed prints
+correctly; a `@build fail` file adds metres to seconds and must not
+compile.
+
+### 141 — State machines
+States as an enumeration (chapter 04's `enum, bind(c)`), transitions as
+a table of procedure pointers (chapter 12). A fixed event sequence drives
+a vending machine; print the state after each event.
+
+### 142 — Observers
+An abstract handler type with a deferred `notify` (chapter 19), and a bus
+that stores polymorphic handlers in a fixed-capacity array (chapter 20's
+caveat). Two concrete handlers count and record events; print their
+state after a fixed sequence.
+
+### 143 — Reference counting
+A shared buffer owned through a pointer component plus a counter, with
+copy handled by defined assignment and release by `final` procedures
+(chapter 19). Print the count after each copy and scope exit; the last
+release frees the buffer exactly once.
+
+### 144 — Matrix type
+A dense matrix type with allocatable storage, constructors, `*`, `+`,
+`transpose`, and a shape check that returns a status. Compare the
+product with intrinsic `matmul` and print the logical result.
+
+### 145 — Iterators
+An abstract iterator (`has_next`, `next`) and a concrete one over phase
+81's sorted table, plus a filtering iterator wrapped around it. Print the
+visited keys. The README contrasts this with a plain `do` loop.
+
+### 146 — wc
+A command-line tool (chapter 24) that counts lines, words and bytes of
+each file named in its arguments, using phase 02's line reader from
+chapter 23. `! @args` points at a fixed text file in the directory, so the
+counts are known.
+
+### 147 — WAV
+Write a mono 16-bit PCM WAV of a short sine wave with stream access
+(chapter 23), building the little-endian header with `transfer` (chapter
+26), then read the header back and print the sample rate, channels and
+number of samples.
+
+### 148 — UTF-8
+Decode a byte string into code points by hand (1 to 4 byte sequences,
+with an error for malformed input), and encode back. Print the number of
+bytes, the number of code points and the round-trip check. Chapter 10
+used the `ISO_10646` kind; this works on raw bytes.
+
+### 149 — Logging
+Levels, a destination unit and a prefix: first as a module with global
+state, then as a logger object passed around (chapter 14's comparison).
+Output goes to an internal file that the program prints, so the result
+is deterministic.
+
+### 150 — Coverage
+Build a small module and its test with `--coverage`, run them, call
+`gcov`, and print the percentage of lines executed and the line numbers
+never run. Exit 77 when `gcov` is missing.
+
+### 151 — Property tests
+Seeded random inputs (`random_seed(put=...)`, chapter 24) for invariants:
+sorted output is ordered and a permutation of the input (phase 121);
+rational arithmetic is associative and normalised (phase 125). Print the
+number of cases and failures.
+
+### 152 — Fuzzing
+Feed a few thousand seeded random byte strings to phase 83's lexer. Every
+call must return either tokens or an error status, never crash or loop.
+Print the counts of accepted and rejected inputs. The README explains how
+to run it under the sanitizer recipe from chapter 30.
+
+### 153 — Vectorisation
+Compile chapter 39's loops with `-O3 -fopt-info-vec-optimized` and
+`-fopt-info-vec-missed`, and count which loops vectorise. The program's
+output is a checksum; the compiler report and its interpretation live in
+the README, since they change between compiler versions.
+
+### 154 — Cache blocking
+A naive triple loop, a loop-reordered version and a blocked version of
+matrix multiply. All three print the same checksum and agree with
+`matmul`. Timings for a few block sizes go in the README.
