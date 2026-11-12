@@ -99,6 +99,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 58 | [C descriptors](58-c-descriptors/) | ✅ |
 | 59 | [Library ABI](59-library-abi/) | ✅ |
 | 60 | [OpenMP patterns](60-openmp-patterns/) | ✅ |
+| 61 | [MPI patterns](61-mpi-patterns/) | ✅ |
 | 63 | [`do concurrent` performance](63-do-concurrent-performance/) | ✅ |
 | 68 | [Error library](68-error-library/) | ✅ |
 | 71 | [Continuous integration](71-ci/) | ✅ |
