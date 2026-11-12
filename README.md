@@ -142,6 +142,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 101 | [Game of Life](101-game-of-life/) | ✅ |
 | 102 | [Mandelbrot](102-mandelbrot/) | ✅ |
 | 103 | [Two-body](103-two-body/) | ✅ |
+| 104 | [Regression](104-regression/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
