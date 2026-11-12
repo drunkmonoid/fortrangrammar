@@ -158,7 +158,7 @@ compiler exits 77.
 | 103 | [x] | `103-two-body/` | One Euler step of a circular orbit, radius checked loosely |
 | 104 | [x] | `104-regression/` | Slope and intercept of y = 2x + 1 on integer abscissae |
 | 105 | [x] | `105-k-means/` | Two points, two centres, the assignment after one update |
-| 106 | [ ] | `106-sir/` | A few Euler steps of an SIR model, populations summed to N |
+| 106 | [x] | `106-sir/` | A few Euler steps of an SIR model, populations summed to N |
 | 107 | [ ] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
 | 108 | [ ] | `108-geometry/` | Circle-segment intersection with an exact hit and a miss |
 | 109 | [ ] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
