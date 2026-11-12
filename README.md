@@ -145,6 +145,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 104 | [Regression](104-regression/) | ✅ |
 | 105 | [k-means](105-k-means/) | ✅ |
 | 106 | [SIR](106-sir/) | ✅ |
+| 107 | [PPM images](107-ppm/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).

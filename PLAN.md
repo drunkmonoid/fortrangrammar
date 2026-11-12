@@ -159,7 +159,7 @@ compiler exits 77.
 | 104 | [x] | `104-regression/` | Slope and intercept of y = 2x + 1 on integer abscissae |
 | 105 | [x] | `105-k-means/` | Two points, two centres, the assignment after one update |
 | 106 | [x] | `106-sir/` | A few Euler steps of an SIR model, populations summed to N |
-| 107 | [ ] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
+| 107 | [x] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
 | 108 | [ ] | `108-geometry/` | Circle-segment intersection with an exact hit and a miss |
 | 109 | [ ] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
 | 110 | [ ] | `110-exercises-procedures/` | Problems and solutions for chapters 11–20 |
