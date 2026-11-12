@@ -134,7 +134,7 @@ compiler exits 77.
 | 79 | [x] | `79-union-find/` | Disjoint sets with path compression |
 | 80 | [x] | `80-graphs/` | Adjacency lists, BFS distances on a fixed graph |
 | 81 | [x] | `81-sorted-tables/` | A sorted array as a map: insert and binary search |
-| 82 | [ ] | `82-string-builders/` | Append without quadratic `//` in a loop |
+| 82 | [x] | `82-string-builders/` | Append without quadratic `//` in a loop |
 | 83 | [ ] | `83-lexer/` | Tokens for integers, identifiers, and `+ - * / ( )` |
 | 84 | [ ] | `84-parser/` | Recursive descent for arithmetic expressions |
 | 85 | [ ] | `85-evaluator/` | The parser's tree, evaluated on integer inputs |
