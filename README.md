@@ -119,6 +119,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 78 | [Hash maps](78-hash-maps/) | ✅ |
 | 79 | [Union-find](79-union-find/) | ✅ |
 | 80 | [Graphs](80-graphs/) | ✅ |
+| 81 | [Sorted tables](81-sorted-tables/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
