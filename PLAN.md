@@ -151,7 +151,7 @@ compiler exits 77.
 | 96 | [x] | `96-richardson/` | One Richardson step on a symmetric difference |
 | 97 | [x] | `97-lcg/` | A linear congruential generator and a Monte Carlo count |
 | 98 | [x] | `98-quadrature-2d/` | Product Simpson rule on x² + y² over the unit square |
-| 99 | [ ] | `99-special-functions/` | Series for exp and erf, checked against a tolerance |
+| 99 | [x] | `99-special-functions/` | Series for exp and erf, checked against a tolerance |
 | 100 | [ ] | `100-golden-section/` | Minimum of (x−2)² on an interval |
 | 101 | [ ] | `101-game-of-life/` | One generation of a blinker, then the cell count |
 | 102 | [ ] | `102-mandelbrot/` | Escape counts for a few complex points |
