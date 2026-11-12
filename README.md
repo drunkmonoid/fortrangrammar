@@ -122,6 +122,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 81 | [Sorted tables](81-sorted-tables/) | ✅ |
 | 82 | [String builders](82-string-builders/) | ✅ |
 | 83 | [Lexer](83-lexer/) | ✅ |
+| 84 | [Parser](84-parser/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).

@@ -136,7 +136,7 @@ compiler exits 77.
 | 81 | [x] | `81-sorted-tables/` | A sorted array as a map: insert and binary search |
 | 82 | [x] | `82-string-builders/` | Append without quadratic `//` in a loop |
 | 83 | [x] | `83-lexer/` | Tokens for integers, identifiers, and `+ - * / ( )` |
-| 84 | [ ] | `84-parser/` | Recursive descent for arithmetic expressions |
+| 84 | [x] | `84-parser/` | Recursive descent for arithmetic expressions |
 | 85 | [ ] | `85-evaluator/` | The parser's tree, evaluated on integer inputs |
 | 86 | [ ] | `86-fixed-records/` | Read and write fixed-width fields |
 | 87 | [ ] | `87-use-scanner/` | List the module names a file `use`s |
