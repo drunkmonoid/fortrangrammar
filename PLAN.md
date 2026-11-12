@@ -127,7 +127,7 @@ compiler exits 77.
 
 | # | Status | Directory | Topic |
 |---|---|---|---|
-| 75 | [ ] | `75-stacks/` | A growable stack of integers with `move_alloc` |
+| 75 | [x] | `75-stacks/` | A growable stack of integers with `move_alloc` |
 | 76 | [ ] | `76-arenas/` | Nodes as integer indices into one allocatable array |
 | 77 | [ ] | `77-heaps/` | A binary heap: push, pop, and a heap sort |
 | 78 | [ ] | `78-hash-maps/` | Open addressing, integer keys, linear probing |
