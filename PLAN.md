@@ -143,7 +143,7 @@ compiler exits 77.
 | 88 | [x] | `88-derived-dump/` | Print a derived type as `name = value` lines |
 | 89 | [x] | `89-interpolation/` | Linear and cubic interpolation on a known polynomial |
 | 90 | [x] | `90-poisson/` | 1-D Poisson equation with a direct Thomas solve |
-| 91 | [ ] | `91-heat/` | Explicit heat equation, one step, exact for a linear profile |
+| 91 | [x] | `91-heat/` | Explicit heat equation, one step, exact for a linear profile |
 | 92 | [ ] | `92-advection/` | Upwind advection of a step, checksum of the shifted cells |
 | 93 | [ ] | `93-conjugate-gradient/` | CG on the 3×3 matrix from chapter 44, residual zero |
 | 94 | [ ] | `94-newton-systems/` | Newton on a 2×2 polynomial system with a known root |
