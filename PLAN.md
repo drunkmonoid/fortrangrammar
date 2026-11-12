@@ -138,7 +138,7 @@ compiler exits 77.
 | 83 | [x] | `83-lexer/` | Tokens for integers, identifiers, and `+ - * / ( )` |
 | 84 | [x] | `84-parser/` | Recursive descent for arithmetic expressions |
 | 85 | [x] | `85-evaluator/` | The parser's tree, evaluated on integer inputs |
-| 86 | [ ] | `86-fixed-records/` | Read and write fixed-width fields |
+| 86 | [x] | `86-fixed-records/` | Read and write fixed-width fields |
 | 87 | [ ] | `87-use-scanner/` | List the module names a file `use`s |
 | 88 | [ ] | `88-derived-dump/` | Print a derived type as `name = value` lines |
 | 89 | [ ] | `89-interpolation/` | Linear and cubic interpolation on a known polynomial |

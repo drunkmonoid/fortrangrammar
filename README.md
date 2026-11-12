@@ -124,6 +124,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 83 | [Lexer](83-lexer/) | ✅ |
 | 84 | [Parser](84-parser/) | ✅ |
 | 85 | [Evaluator](85-evaluator/) | ✅ |
+| 86 | [Fixed-width records](86-fixed-records/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
