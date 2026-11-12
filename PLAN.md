@@ -161,7 +161,7 @@ compiler exits 77.
 | 106 | [x] | `106-sir/` | A few Euler steps of an SIR model, populations summed to N |
 | 107 | [x] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
 | 108 | [x] | `108-geometry/` | Circle-segment intersection with an exact hit and a miss |
-| 109 | [ ] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
+| 109 | [x] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
 | 110 | [ ] | `110-exercises-procedures/` | Problems and solutions for chapters 11–20 |
 | 111 | [ ] | `111-exercises-rest/` | Problems and solutions for chapters 21–36 |
 | 112 | [ ] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
