@@ -1,0 +1,17 @@
+name = "interp1d"
+version = "0.1.0"
+license = "MIT"
+author = "Fortran Authors"
+description = "Capstone 1-D linear interpolation library"
+
+[library]
+source-dir = "src"
+include-dir = "include"
+
+[install]
+library = true
+
+[[test]]
+name = "test_interp"
+source-dir = "test"
+main = "test_interp.f90"

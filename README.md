@@ -112,6 +112,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 71 | [Continuous integration](71-ci/) | ✅ |
 | 72 | [Debugging a wrong answer](72-debugging-numerics/) | ✅ |
 | 73 | [Profiling](73-profiling/) | ✅ |
+| 74 | [Capstone](74-capstone/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).

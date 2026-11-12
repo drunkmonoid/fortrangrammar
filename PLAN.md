@@ -109,7 +109,7 @@ and use them.
 | 71 | [x] | `71-ci/` | GitHub Actions running `scripts/check_all.sh` on gfortran 15 |
 | 72 | [x] | `72-debugging-numerics/` | An off-by-one and an uninitialised real, then the corrected program |
 | 73 | [x] | `73-profiling/` | Find an array temporary and remove it, checksum unchanged |
-| 74 | [ ] | `74-capstone/` | A small library: modules, tests, fpm, a C API, an optional Python caller |
+| 74 | [x] | `74-capstone/` | A small library: modules, tests, fpm, a C API, an optional Python caller |
 
 ## Second haul: phases 75–114
 
