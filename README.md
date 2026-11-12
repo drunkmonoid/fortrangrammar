@@ -136,6 +136,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 95 | [Least squares](95-least-squares/) | ✅ |
 | 96 | [Richardson](96-richardson/) | ✅ |
 | 97 | [Linear congruential generator](97-lcg/) | ✅ |
+| 98 | [Quadrature 2D](98-quadrature-2d/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
