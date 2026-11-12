@@ -154,7 +154,7 @@ compiler exits 77.
 | 99 | [x] | `99-special-functions/` | Series for exp and erf, checked against a tolerance |
 | 100 | [x] | `100-golden-section/` | Minimum of (x−2)² on an interval |
 | 101 | [x] | `101-game-of-life/` | One generation of a blinker, then the cell count |
-| 102 | [ ] | `102-mandelbrot/` | Escape counts for a few complex points |
+| 102 | [x] | `102-mandelbrot/` | Escape counts for a few complex points |
 | 103 | [ ] | `103-two-body/` | One Euler step of a circular orbit, radius checked loosely |
 | 104 | [ ] | `104-regression/` | Slope and intercept of y = 2x + 1 on integer abscissae |
 | 105 | [ ] | `105-k-means/` | Two points, two centres, the assignment after one update |
