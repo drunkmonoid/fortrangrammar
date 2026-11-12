@@ -1,0 +1,27 @@
+name = "geometry_mesh"
+version = "1.2.0"
+license = "MIT"
+author = "Fortran Authors"
+maintainer = "dev@example.org"
+copyright = "2026 Fortran Authors"
+description = "A portable geometry and polygon meshing library"
+keywords = ["geometry", "mesh", "polygons", "library"]
+homepage = "https://example.org/geometry_mesh"
+
+[library]
+source-dir = "src"
+
+[install]
+library = true
+
+[dependencies]
+# Dependencies from fpm registry or git repositories
+
+[dev-dependencies]
+# Dependencies needed only during development and testing
+
+[profile.debug]
+fortran-flags = "-g -O0 -fcheck=all"
+
+[profile.release]
+fortran-flags = "-O3"

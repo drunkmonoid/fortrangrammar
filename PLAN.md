@@ -105,7 +105,7 @@ and use them.
 | 67 | [x] | `67-fypp/` | Kind-generic source generated with fypp |
 | 68 | [x] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |
 | 69 | [x] | `69-test-drive/` | An fpm package whose tests use test-drive |
-| 70 | [ ] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
+| 70 | [x] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
 | 71 | [x] | `71-ci/` | GitHub Actions running `scripts/check_all.sh` on gfortran 15 |
 | 72 | [x] | `72-debugging-numerics/` | An off-by-one and an uninitialised real, then the corrected program |
 | 73 | [x] | `73-profiling/` | Find an array temporary and remove it, checksum unchanged |
