@@ -157,7 +157,7 @@ compiler exits 77.
 | 102 | [x] | `102-mandelbrot/` | Escape counts for a few complex points |
 | 103 | [x] | `103-two-body/` | One Euler step of a circular orbit, radius checked loosely |
 | 104 | [x] | `104-regression/` | Slope and intercept of y = 2x + 1 on integer abscissae |
-| 105 | [ ] | `105-k-means/` | Two points, two centres, the assignment after one update |
+| 105 | [x] | `105-k-means/` | Two points, two centres, the assignment after one update |
 | 106 | [ ] | `106-sir/` | A few Euler steps of an SIR model, populations summed to N |
 | 107 | [ ] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
 | 108 | [ ] | `108-geometry/` | Circle-segment intersection with an exact hit and a miss |
