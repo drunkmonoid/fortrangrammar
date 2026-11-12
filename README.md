@@ -139,6 +139,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 98 | [Quadrature 2D](98-quadrature-2d/) | ✅ |
 | 99 | [Special functions](99-special-functions/) | ✅ |
 | 100 | [Golden section](100-golden-section/) | ✅ |
+| 101 | [Game of Life](101-game-of-life/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
