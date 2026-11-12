@@ -1,0 +1,90 @@
+! Preprocessor template for generic AXPY using fypp.
+!
+! Expected generated Fortran expansion:
+! -----------------------------------------------------------------------------
+! module axpy_m
+!   use, intrinsic :: iso_fortran_env, only: real32, real64, real128
+!   implicit none (type, external)
+!   private
+!   public :: axpy
+!
+!   interface axpy
+!     module procedure axpy_real32
+!     module procedure axpy_real64
+!     module procedure axpy_real128
+!   end interface axpy
+!
+! contains
+!
+!   subroutine axpy_real32(a, x, y)
+!     real(real32), intent(in) :: a
+!     real(real32), intent(in) :: x(:)
+!     real(real32), intent(inout) :: y(:)
+!     y = a * x + y
+!   end subroutine axpy_real32
+!
+!   subroutine axpy_real64(a, x, y)
+!     real(real64), intent(in) :: a
+!     real(real64), intent(in) :: x(:)
+!     real(real64), intent(inout) :: y(:)
+!     y = a * x + y
+!   end subroutine axpy_real64
+!
+!   subroutine axpy_real128(a, x, y)
+!     real(real128), intent(in) :: a
+!     real(real128), intent(in) :: x(:)
+!     real(real128), intent(inout) :: y(:)
+!     y = a * x + y
+!   end subroutine axpy_real128
+! end module axpy_m
+! -----------------------------------------------------------------------------
+
+#:set KINDS = ['real32', 'real64', 'real128']
+module axpy_m
+  use, intrinsic :: iso_fortran_env, only: real32, real64, real128
+  implicit none (type, external)
+  private
+  public :: axpy
+
+  interface axpy
+#:for k in KINDS
+    module procedure axpy_${k}$
+#:endfor
+  end interface axpy
+
+contains
+
+#:def axpy_sub(kind_name)
+  subroutine axpy_${kind_name}$(a, x, y)
+    real(${kind_name}$), intent(in) :: a
+    real(${kind_name}$), intent(in) :: x(:)
+    real(${kind_name}$), intent(inout) :: y(:)
+    y = a * x + y
+  end subroutine axpy_${kind_name}$
+#:enddef
+
+#:for k in KINDS
+  $:axpy_sub(k)
+#:endfor
+end module axpy_m
+
+program axpy_demo
+  use, intrinsic :: iso_fortran_env, only: real32, real64, real128, output_unit
+  use axpy_m, only: axpy
+  implicit none (type, external)
+
+  real(real32) :: y32(3)
+  real(real64) :: y64(3)
+  real(real128) :: y128(3)
+
+  y32 = [1, 2, 3]
+  y64 = [1, 2, 3]
+  y128 = [1, 2, 3]
+  call axpy(2.0_real32, [1.0_real32, 1.0_real32, 1.0_real32], y32)
+  call axpy(2.0_real64, [1.0_real64, 1.0_real64, 1.0_real64], y64)
+  call axpy(2.0_real128, [1.0_real128, 1.0_real128, 1.0_real128], y128)
+
+  write(output_unit, '(a, 3(1x, i0))') 'real32 =', nint(y32)
+  write(output_unit, '(a, 3(1x, i0))') 'real64 =', nint(y64)
+  write(output_unit, '(a, 3(1x, i0))') 'real128 =', nint(y128)
+end program axpy_demo

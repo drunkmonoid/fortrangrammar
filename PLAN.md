@@ -102,7 +102,7 @@ and use them.
 | 64 | [x] | `64-hybrid-grid/` | 2-D Jacobi, MPI across rows and OpenMP across columns |
 | 65 | [x] | `65-gpu-offload/` | OpenMP `target` `map` on a saxpy, correct when the device is the host |
 | 66 | [x] | `66-mpi-io/` | Write and read a distributed array with MPI-IO |
-| 67 | [ ] | `67-fypp/` | Kind-generic source generated with fypp |
+| 67 | [x] | `67-fypp/` | Kind-generic source generated with fypp |
 | 68 | [x] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |
 | 69 | [ ] | `69-test-drive/` | An fpm package whose tests use test-drive |
 | 70 | [ ] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
