@@ -162,7 +162,7 @@ compiler exits 77.
 | 107 | [x] | `107-ppm/` | Write a 2×2 PPM image and read the pixel bytes back |
 | 108 | [x] | `108-geometry/` | Circle-segment intersection with an exact hit and a miss |
 | 109 | [x] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
-| 110 | [ ] | `110-exercises-procedures/` | Problems and solutions for chapters 11–20 |
+| 110 | [x] | `110-exercises-procedures/` | Problems and solutions for chapters 11–20 |
 | 111 | [ ] | `111-exercises-rest/` | Problems and solutions for chapters 21–36 |
 | 112 | [ ] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
 | 113 | [ ] | `113-sanitizers/` | A CI job with `-fsanitize=address,undefined` on a safe subset |

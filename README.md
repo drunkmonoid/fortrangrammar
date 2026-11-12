@@ -148,6 +148,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 107 | [PPM images](107-ppm/) | ✅ |
 | 108 | [Geometry](108-geometry/) | ✅ |
 | 109 | [Exercises: basics](109-exercises-basics/) | ✅ |
+| 110 | [Exercises: procedures](110-exercises-procedures/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
