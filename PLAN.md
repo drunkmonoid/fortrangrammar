@@ -147,7 +147,7 @@ compiler exits 77.
 | 92 | [x] | `92-advection/` | Upwind advection of a step, checksum of the shifted cells |
 | 93 | [x] | `93-conjugate-gradient/` | CG on the 3×3 matrix from chapter 44, residual zero |
 | 94 | [x] | `94-newton-systems/` | Newton on a 2×2 polynomial system with a known root |
-| 95 | [ ] | `95-least-squares/` | Normal equations for a line through three exact points |
+| 95 | [x] | `95-least-squares/` | Normal equations for a line through three exact points |
 | 96 | [ ] | `96-richardson/` | One Richardson step on a symmetric difference |
 | 97 | [ ] | `97-lcg/` | A linear congruential generator and a Monte Carlo count |
 | 98 | [ ] | `98-quadrature-2d/` | Product Simpson rule on x² + y² over the unit square |
