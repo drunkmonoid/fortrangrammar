@@ -129,7 +129,7 @@ compiler exits 77.
 |---|---|---|---|
 | 75 | [x] | `75-stacks/` | A growable stack of integers with `move_alloc` |
 | 76 | [x] | `76-arenas/` | Nodes as integer indices into one allocatable array |
-| 77 | [ ] | `77-heaps/` | A binary heap: push, pop, and a heap sort |
+| 77 | [x] | `77-heaps/` | A binary heap: push, pop, and a heap sort |
 | 78 | [ ] | `78-hash-maps/` | Open addressing, integer keys, linear probing |
 | 79 | [ ] | `79-union-find/` | Disjoint sets with path compression |
 | 80 | [ ] | `80-graphs/` | Adjacency lists, BFS distances on a fixed graph |

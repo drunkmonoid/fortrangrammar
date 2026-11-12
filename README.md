@@ -115,6 +115,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 74 | [Capstone](74-capstone/) | ✅ |
 | 75 | [Stacks](75-stacks/) | ✅ |
 | 76 | [Arenas](76-arenas/) | ✅ |
+| 77 | [Heaps](77-heaps/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
