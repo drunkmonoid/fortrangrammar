@@ -93,6 +93,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 52 | [JSON](52-json/) | ✅ |
 | 53 | [TOML](53-toml/) | ✅ |
 | 54 | [HDF5](54-hdf5/) | ✅ |
+| 55 | [NetCDF](55-netcdf/) | ✅ |
 | 56 | [Python interop](56-python-interop/) | ✅ |
 | 57 | [C++ interop](57-cxx-interop/) | ✅ |
 | 58 | [C descriptors](58-c-descriptors/) | ✅ |
