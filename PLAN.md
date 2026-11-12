@@ -97,7 +97,7 @@ and use them.
 | 59 | [x] | `59-library-abi/` | A versioned `bind(c)` API and the C header a caller compiles against |
 | 60 | [x] | `60-openmp-patterns/` | `collapse`, array reductions, `simd`, schedules, a data race written so the test cannot hang |
 | 61 | [x] | `61-mpi-patterns/` | Communicators, struct datatypes, non-blocking halo exchange |
-| 62 | [ ] | `62-coarray-halos/` | A 1-D ring halo with `sync images` |
+| 62 | [x] | `62-coarray-halos/` | A 1-D ring halo with `sync images` |
 | 63 | [x] | `63-do-concurrent-performance/` | Locality mistakes, `reduce`, checksums rather than timings |
 | 64 | [ ] | `64-hybrid-grid/` | 2-D Jacobi, MPI across rows and OpenMP across columns |
 | 65 | [ ] | `65-gpu-offload/` | OpenMP `target` `map` on a saxpy, correct when the device is the host |
