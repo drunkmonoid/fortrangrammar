@@ -104,7 +104,7 @@ and use them.
 | 66 | [x] | `66-mpi-io/` | Write and read a distributed array with MPI-IO |
 | 67 | [x] | `67-fypp/` | Kind-generic source generated with fypp |
 | 68 | [x] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |
-| 69 | [ ] | `69-test-drive/` | An fpm package whose tests use test-drive |
+| 69 | [x] | `69-test-drive/` | An fpm package whose tests use test-drive |
 | 70 | [ ] | `70-fpm-packaging/` | Version, namespace, dependencies, profiles, install |
 | 71 | [x] | `71-ci/` | GitHub Actions running `scripts/check_all.sh` on gfortran 15 |
 | 72 | [x] | `72-debugging-numerics/` | An off-by-one and an uninitialised real, then the corrected program |

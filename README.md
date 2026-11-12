@@ -107,6 +107,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 66 | [MPI-IO](66-mpi-io/) | ✅ |
 | 67 | [fypp](67-fypp/) | ✅ |
 | 68 | [Error library](68-error-library/) | ✅ |
+| 69 | [test-drive](69-test-drive/) | ✅ |
 | 71 | [Continuous integration](71-ci/) | ✅ |
 | 72 | [Debugging a wrong answer](72-debugging-numerics/) | ✅ |
 | 73 | [Profiling](73-profiling/) | ✅ |
