@@ -100,7 +100,7 @@ and use them.
 | 62 | [x] | `62-coarray-halos/` | A 1-D ring halo with `sync images` |
 | 63 | [x] | `63-do-concurrent-performance/` | Locality mistakes, `reduce`, checksums rather than timings |
 | 64 | [x] | `64-hybrid-grid/` | 2-D Jacobi, MPI across rows and OpenMP across columns |
-| 65 | [ ] | `65-gpu-offload/` | OpenMP `target` `map` on a saxpy, correct when the device is the host |
+| 65 | [x] | `65-gpu-offload/` | OpenMP `target` `map` on a saxpy, correct when the device is the host |
 | 66 | [ ] | `66-mpi-io/` | Write and read a distributed array with MPI-IO |
 | 67 | [ ] | `67-fypp/` | Kind-generic source generated with fypp |
 | 68 | [x] | `68-error-library/` | A result type and `stat`/`errmsg` helpers used by more than one program |

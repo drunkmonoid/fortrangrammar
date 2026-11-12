@@ -103,6 +103,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 62 | [Coarray halos](62-coarray-halos/) | ✅ |
 | 63 | [`do concurrent` performance](63-do-concurrent-performance/) | ✅ |
 | 64 | [Hybrid grid](64-hybrid-grid/) | ✅ |
+| 65 | [GPU offload](65-gpu-offload/) | ✅ |
 | 68 | [Error library](68-error-library/) | ✅ |
 | 71 | [Continuous integration](71-ci/) | ✅ |
 | 72 | [Debugging a wrong answer](72-debugging-numerics/) | ✅ |
