@@ -91,6 +91,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 50 | [CSV](50-csv/) | ✅ |
 | 51 | [Configuration](51-configuration/) | ✅ |
 | 52 | [JSON](52-json/) | ✅ |
+| 53 | [TOML](53-toml/) | ✅ |
 | 56 | [Python interop](56-python-interop/) | ✅ |
 | 57 | [C++ interop](57-cxx-interop/) | ✅ |
 | 58 | [C descriptors](58-c-descriptors/) | ✅ |
