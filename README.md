@@ -131,6 +131,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 90 | [Poisson](90-poisson/) | ✅ |
 | 91 | [Heat](91-heat/) | ✅ |
 | 92 | [Advection](92-advection/) | ✅ |
+| 93 | [Conjugate gradient](93-conjugate-gradient/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).

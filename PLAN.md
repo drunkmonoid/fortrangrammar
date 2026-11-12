@@ -145,7 +145,7 @@ compiler exits 77.
 | 90 | [x] | `90-poisson/` | 1-D Poisson equation with a direct Thomas solve |
 | 91 | [x] | `91-heat/` | Explicit heat equation, one step, exact for a linear profile |
 | 92 | [x] | `92-advection/` | Upwind advection of a step, checksum of the shifted cells |
-| 93 | [ ] | `93-conjugate-gradient/` | CG on the 3×3 matrix from chapter 44, residual zero |
+| 93 | [x] | `93-conjugate-gradient/` | CG on the 3×3 matrix from chapter 44, residual zero |
 | 94 | [ ] | `94-newton-systems/` | Newton on a 2×2 polynomial system with a known root |
 | 95 | [ ] | `95-least-squares/` | Normal equations for a line through three exact points |
 | 96 | [ ] | `96-richardson/` | One Richardson step on a symmetric difference |
