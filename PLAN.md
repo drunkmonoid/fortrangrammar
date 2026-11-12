@@ -140,7 +140,7 @@ compiler exits 77.
 | 85 | [x] | `85-evaluator/` | The parser's tree, evaluated on integer inputs |
 | 86 | [x] | `86-fixed-records/` | Read and write fixed-width fields |
 | 87 | [x] | `87-use-scanner/` | List the module names a file `use`s |
-| 88 | [ ] | `88-derived-dump/` | Print a derived type as `name = value` lines |
+| 88 | [x] | `88-derived-dump/` | Print a derived type as `name = value` lines |
 | 89 | [ ] | `89-interpolation/` | Linear and cubic interpolation on a known polynomial |
 | 90 | [ ] | `90-poisson/` | 1-D Poisson equation with a direct Thomas solve |
 | 91 | [ ] | `91-heat/` | Explicit heat equation, one step, exact for a linear profile |
