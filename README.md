@@ -149,6 +149,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 108 | [Geometry](108-geometry/) | ✅ |
 | 109 | [Exercises: basics](109-exercises-basics/) | ✅ |
 | 110 | [Exercises: procedures](110-exercises-procedures/) | ✅ |
+| 111 | [Exercises: pointers through legacy](111-exercises-rest/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
