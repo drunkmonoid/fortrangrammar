@@ -1,0 +1,5 @@
+[check]
+line-length = 132
+indent-width = 2
+# The examples use single quotes. S241 prefers double quotes.
+ignore = ["S241"]

@@ -164,7 +164,7 @@ compiler exits 77.
 | 109 | [x] | `109-exercises-basics/` | Problems and solutions for chapters 01–10 |
 | 110 | [x] | `110-exercises-procedures/` | Problems and solutions for chapters 11–20 |
 | 111 | [x] | `111-exercises-rest/` | Problems and solutions for chapters 21–36 |
-| 112 | [ ] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
+| 112 | [x] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
 | 113 | [ ] | `113-sanitizers/` | A CI job with `-fsanitize=address,undefined` on a safe subset |
 | 114 | [ ] | `114-learning-paths/` | Three reading orders: language, numerics, applications |
 

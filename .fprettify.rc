@@ -1,0 +1,4 @@
+# Two-space indent, matching CONVENTIONS.md. Whitespace is left alone:
+# fprettify would delete the space in `implicit none (type, external)`.
+indent = 2
+disable-whitespace = true
