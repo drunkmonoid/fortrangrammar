@@ -14,3 +14,20 @@ jobs:
           compiler: gcc
           version: "15"
       - run: scripts/check_all.sh
+
+  sanitizers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: fortran-lang/setup-fortran@v1
+        with:
+          compiler: gcc
+          version: "15"
+      - name: integer chapters with asan and ubsan
+        env:
+          FFLAGS: -std=f2023 -Wall -Wextra -pedantic -g -fbacktrace -fcheck=all -fsanitize=address,undefined
+        run: >
+          scripts/check_all.sh
+          75-stacks 76-arenas 77-heaps 78-hash-maps
+          79-union-find 80-graphs 81-sorted-tables 82-string-builders
+          101-game-of-life 105-k-means
