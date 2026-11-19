@@ -1,13 +1,13 @@
 # Reading orders
 
 Three ways through the chapters that are already in the tree. Each line
-is why that chapter comes next. Phases 117–154 are in [PLAN.md](PLAN.md)
+is why that chapter comes next. Phases 118–154 are in [PLAN.md](PLAN.md)
 and have no directories yet.
 
 ## Language
 
 The language itself, then the generic, error, and parsing chapters that
-sit on top of it. Waiting on 115–120 (older `-std` revisions) and
+sit on top of it. Waiting on 118–120 (the 2018 standard, the oldest `-std` each early example accepts, and one program written five ways) and
 140–145 (types used as a design tool).
 
 1. **01** — compile a program and turn implicit typing off.

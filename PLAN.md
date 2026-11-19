@@ -190,7 +190,7 @@ the second haul where they build on it.
 |---|---|---|---|
 | 115 | [x] | `115-fortran-90-95/` | Modules, free form, allocatables, `pure`/`elemental`, built with `-std=f95` |
 | 116 | [x] | `116-fortran-2003/` | OOP, C interop, IEEE modules, stream I/O, built with `-std=f2003` |
-| 117 | [ ] | `117-fortran-2008/` | Coarrays, submodules, `do concurrent`, `block`, built with `-std=f2008` |
+| 117 | [x] | `117-fortran-2008/` | Coarrays, submodules, `do concurrent`, `block`, built with `-std=f2008` |
 | 118 | [ ] | `118-fortran-2018/` | Assumed rank, teams, events, `implicit none (external)`, built with `-std=f2018` |
 | 119 | [ ] | `119-minimum-standard/` | A script that reports the oldest `-std` each example in chapters 01–30 accepts |
 | 120 | [ ] | `120-one-program-five-revisions/` | One statistics program in F77, F90, F2003, F2008 and F2018 style, identical output |
