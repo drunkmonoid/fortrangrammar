@@ -152,6 +152,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 111 | [Exercises: pointers through legacy](111-exercises-rest/) | ✅ |
 | 112 | [Formatting and lint](112-lint/) | ✅ |
 | 113 | [Sanitizers](113-sanitizers/) | ✅ |
+| 114 | [Learning paths](114-learning-paths/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).

@@ -166,7 +166,7 @@ compiler exits 77.
 | 111 | [x] | `111-exercises-rest/` | Problems and solutions for chapters 21–36 |
 | 112 | [x] | `112-lint/` | fprettify and fortitude configuration; exit 77 if absent |
 | 113 | [x] | `113-sanitizers/` | A CI job with `-fsanitize=address,undefined` on a safe subset |
-| 114 | [ ] | `114-learning-paths/` | Three reading orders: language, numerics, applications |
+| 114 | [x] | `114-learning-paths/` | Three reading orders: language, numerics, applications |
 
 ## Third haul: phases 115–154
 
