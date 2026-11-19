@@ -1,7 +1,7 @@
 # Reading orders
 
 Three ways through the chapters that are already in the tree. Each line
-is why that chapter comes next. Phases 116–154 are in [PLAN.md](PLAN.md)
+is why that chapter comes next. Phases 117–154 are in [PLAN.md](PLAN.md)
 and have no directories yet.
 
 ## Language

@@ -154,6 +154,7 @@ Requires `gfortran` 15 or newer (or another Fortran 2023 compiler) and `bash`.
 | 113 | [Sanitizers](113-sanitizers/) | ✅ |
 | 114 | [Learning paths](114-learning-paths/) | ✅ |
 | 115 | [Fortran 90 and 95](115-fortran-90-95/) | ✅ |
+| 116 | [Fortran 2003](116-fortran-2003/) | ✅ |
 
 The remaining phases of the first continuation, a second haul in phases
 75–114, and a third haul in phases 115–154 are listed in [PLAN.md](PLAN.md).
